@@ -2,7 +2,7 @@ import sqlalchemy
 import pymysql
 from sqlalchemy import create_engine, inspect, MetaData, select
 import datetime
-from datetime import datetime
+from datetime import date
 from time import time
 from decimal import *
 import csv
@@ -12,6 +12,18 @@ import pickle
 def save_obj(obj, name):
     with open(name + '.pkl', 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
+
+def Age(birthDate, assessmentDate):
+    days_in_year = 365.2425
+    try:
+        assDate = datetime.datetime.strptime(assessmentDate, '%d/%m/%Y').date()
+        bDate = datetime.datetime.strptime(birthDate, '%d/%m/%Y').date()
+        assAge = (assDate - bDate).days / days_in_year
+    except TypeError:
+        bDate = datetime.datetime.strptime(birthDate, '%d/%m/%Y').date()
+        assAge = -1
+    currentAge = (date.today() - bDate).days / days_in_year
+    return (currentAge, assAge)
 
 SQLALCHEMY_CONN_STRING = 'mysql+pymysql://odflab:LAB654@192.168.132.114/odflab'
 DATA_FOLDER_PATH = os.path.expanduser('~/Documents/nd_subtyping/data/')
@@ -51,30 +63,26 @@ for table_name in metadata.tables:
 for t in tables.values():
     for l in t:
         for idx, el in enumerate(l):
-            if type(el) is datetime:
-                l[idx] = el.strftime('%m/%d/%Y')
+            if type(el) is datetime.datetime:
+                l[idx] = el.strftime('%d/%m/%Y')
             elif type(el) is Decimal:
                 l[idx] = float(el)
 
 subj_values = {}
 header_tables = {}
+subj_demographics = {}
 for ins, meas in tables.items():
     header_tables.setdefault(ins, list()).extend(['eval_age'] + meas[0][3::])
     for m in meas[1::]:
-        try:
-            YOB = str.split(m[2], '/')[2]
-            YOA = str.split(m[3], '/')[2]
-            eval_age = int(YOA) - int(YOB)
-        except TypeError:
-            eval_age = None
-            pass
+        current_age, eval_age = Age(m[2], m[3])
         if m[0] not in subj_values:
             subj_values[m[0]] = [[ins, eval_age] + m[1::]]
+            subj_demographics[m[0]] = [current_age, m[1]]
         else:
             subj_values[m[0]].append([ins, eval_age] + m[1::])
 
 ##Save objects
-data_dir = '-'.join(['odf-data', datetime.now().strftime('%Y-%m-%d-%H-%M-%S')])
+data_dir = '-'.join(['odf-data', datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')])
 os.makedirs(os.path.join(DATA_FOLDER_PATH, data_dir))
 
 save_obj(tables, os.path.join(DATA_FOLDER_PATH, data_dir, 'odf-tables'))
@@ -97,3 +105,10 @@ with open(os.path.join(DATA_FOLDER_PATH, data_dir,
     for l, m in subj_values.items():
         for i in range(len(m)):
             wr.writerow([l] + [v for v in m[i]])
+
+with open(os.path.join(DATA_FOLDER_PATH, data_dir,
+                       'person-demographics.csv'), 'w') as f:
+    wr = csv.writer(f, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+    wr.writerow(['ID_SUBJ', 'CURRENT_AGE', 'SEX'])
+    for s, sd in subj_demographics.items():
+        wr.writerow([s] + sd)
