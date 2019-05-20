@@ -1,6 +1,6 @@
 ## Behavioral stratification in Autism Spectrum Disorder
 
-Run `odfDBquery.py` that outputs the followng files:
+Run `create-tables.py` that outputs the following files:
 
 - _person-instrument.csv_: ID_SUBJ, DOB, DOA, SEX, INSTRUMENT;
 
@@ -8,7 +8,9 @@ Run `odfDBquery.py` that outputs the followng files:
   name in the second and assessment age in the third. Following, the scores of the 
   instrument as they appear in the Google sheets;
 
-- _person_demographics.csv_: ID_SUBJ, CURRENT_AGE, SEX;
+- _person_demographics.csv_: ID_SUBJ, CURRENT_AGE, DOB, DOA, SEX;
+  DOB: date of birth;
+  DOA: date of assessment.
 
 - _header-tables.csv_: name of the instrument in the first column and following, the header
   from the corresponding Google sheet;
