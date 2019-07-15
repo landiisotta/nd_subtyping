@@ -1,0 +1,201 @@
+Cluster 9 -- Level-4
+
+Term srs::caretaker::raw_tot -- Mean score: 113.62 (85.00, 149.00) -- SD: 23.70)
+Term gmds::q_A -- Mean score: 74.25 (74.00, 74.50) -- SD: 0.25)
+Term gmds::q_B -- Mean score: 80.75 (72.00, 89.50) -- SD: 8.75)
+Term gmds::q_C -- Mean score: 80.00 (76.00, 84.00) -- SD: 4.00)
+Term gmds::q_D -- Mean score: 76.75 (64.50, 89.00) -- SD: 12.25)
+Term gmds::q_E -- Mean score: 82.50 (81.00, 84.00) -- SD: 1.50)
+Term gmds::q_F -- Mean score: 81.75 (77.50, 86.00) -- SD: 4.25)
+Term gmds::GQ -- Mean score: 79.00 (77.00, 81.00) -- SD: 2.00)
+Term wechsler::FS -- Mean score: 86.20 (38.50, 133.00) -- SD: 30.35)
+Term ados::sa_tot -- Mean score: 9.57 (7.00, 17.00) -- SD: 3.12)
+Term ados::rrb_tot -- Mean score: 0.29 (0.00, 1.00) -- SD: 0.45)
+Term ados::comparison_score -- Mean score: 5.36 (3.50, 6.00) -- SD: 0.87)
+Term psi-sf::Madre::raw_ts -- Mean score: 88.60 (53.00, 120.00) -- SD: 22.74)
+Term psi-sf::Padre::raw_ts -- Mean score: 80.60 (58.00, 120.00) -- SD: 21.01)
+Term vineland::caretaker::standard_CD -- Mean score: 83.50 (83.50, 83.50) -- SD: 0.00)
+Term vineland::caretaker::standard_DLSD -- Mean score: 70.00 (70.00, 70.00) -- SD: 0.00)
+Term vineland::caretaker::standard_SD -- Mean score: 76.50 (76.50, 76.50) -- SD: 0.00)
+Term vineland::caretaker::standard_MSD -- Mean score: 74.00 (74.00, 74.00) -- SD: 0.00)
+Term vineland::caretaker::standard_ABC -- Mean score: 73.00 (73.00, 73.00) -- SD: 0.00)
+
+
+Cluster 5 -- Level-4
+
+Term psi-sf::Padre::raw_ts -- Mean score: 67.33 (40.00, 101.00) -- SD: 25.30)
+Term psi-sf::Madre::raw_ts -- Mean score: 60.50 (41.00, 80.00) -- SD: 19.50)
+Term srs::caretaker::raw_tot -- Mean score: 40.75 (17.50, 64.00) -- SD: 23.25)
+Term wechsler::FS -- Mean score: 103.50 (73.00, 135.00) -- SD: 22.33)
+Term ados::sa_tot -- Mean score: 5.67 (5.00, 6.00) -- SD: 0.47)
+Term ados::rrb_tot -- Mean score: 0.00 (0.00, 0.00) -- SD: 0.00)
+Term ados::comparison_score -- Mean score: 3.00 (3.00, 3.00) -- SD: 0.00)
+
+
+Cluster 3 -- Level-4
+
+Term gmds::q_A -- Mean score: 84.00 (69.00, 110.00) -- SD: 15.70)
+Term gmds::q_B -- Mean score: 60.25 (42.00, 102.00) -- SD: 24.31)
+Term gmds::q_C -- Mean score: 53.50 (28.00, 105.00) -- SD: 30.19)
+Term gmds::q_D -- Mean score: 78.00 (57.00, 115.00) -- SD: 22.29)
+Term gmds::q_E -- Mean score: 84.75 (48.00, 102.00) -- SD: 21.44)
+Term gmds::q_F -- Mean score: 59.00 (45.00, 82.00) -- SD: 14.05)
+Term gmds::GQ -- Mean score: 70.50 (52.00, 103.00) -- SD: 19.37)
+Term ados::sa_tot -- Mean score: 8.92 (1.00, 18.00) -- SD: 5.69)
+Term ados::rrb_tot -- Mean score: 1.00 (1.00, 1.00) -- SD: 0.00)
+Term ados::comparison_score -- Mean score: 5.00 (1.00, 10.00) -- SD: 3.16)
+Term vineland::caretaker::standard_CD -- Mean score: 73.33 (68.00, 83.00) -- SD: 6.85)
+Term vineland::caretaker::standard_DLSD -- Mean score: 73.33 (48.00, 91.00) -- SD: 18.37)
+Term vineland::caretaker::standard_SD -- Mean score: 70.17 (60.50, 75.00) -- SD: 6.84)
+Term vineland::caretaker::standard_MSD -- Mean score: 82.50 (81.00, 84.00) -- SD: 1.50)
+Term vineland::caretaker::standard_ABC -- Mean score: 70.67 (63.00, 76.00) -- SD: 5.56)
+Term psi-sf::Madre::raw_ts -- Mean score: 104.38 (82.00, 119.00) -- SD: 12.65)
+Term psi-sf::Padre::raw_ts -- Mean score: 94.14 (66.00, 130.00) -- SD: 20.22)
+Term wechsler::FS -- Mean score: 87.67 (58.00, 128.00) -- SD: 23.75)
+Term srs::caretaker::raw_tot -- Mean score: 84.90 (55.00, 124.50) -- SD: 24.54)
+
+
+Cluster 0 -- Level-4
+
+Term ados::sa_tot -- Mean score: 12.80 (3.00, 20.00) -- SD: 3.19)
+Term ados::rrb_tot -- Mean score: 3.72 (1.00, 7.00) -- SD: 1.53)
+Term ados::comparison_score -- Mean score: 6.82 (4.00, 10.00) -- SD: 1.23)
+Term srs::caretaker::raw_tot -- Mean score: 89.07 (27.50, 163.50) -- SD: 33.72)
+Term gmds::q_A -- Mean score: 68.56 (24.00, 111.50) -- SD: 19.50)
+Term gmds::q_B -- Mean score: 59.01 (15.00, 107.00) -- SD: 21.09)
+Term gmds::q_C -- Mean score: 51.45 (9.00, 124.00) -- SD: 29.89)
+Term gmds::q_D -- Mean score: 61.88 (18.00, 113.00) -- SD: 21.24)
+Term gmds::q_E -- Mean score: 76.78 (25.00, 122.00) -- SD: 24.83)
+Term gmds::q_F -- Mean score: 58.12 (17.00, 146.00) -- SD: 28.21)
+Term gmds::GQ -- Mean score: 61.71 (21.00, 103.00) -- SD: 21.20)
+Term vineland::caretaker::standard_CD -- Mean score: 60.35 (20.00, 104.00) -- SD: 17.12)
+Term vineland::caretaker::standard_DLSD -- Mean score: 68.65 (21.00, 122.00) -- SD: 17.75)
+Term vineland::caretaker::standard_SD -- Mean score: 64.66 (20.00, 118.00) -- SD: 16.08)
+Term vineland::caretaker::standard_MSD -- Mean score: 71.35 (22.00, 106.00) -- SD: 15.36)
+Term vineland::caretaker::standard_ABC -- Mean score: 64.61 (20.00, 106.00) -- SD: 16.22)
+Term psi-sf::Madre::raw_ts -- Mean score: 86.06 (36.00, 147.00) -- SD: 22.85)
+Term psi-sf::Padre::raw_ts -- Mean score: 83.26 (36.00, 136.00) -- SD: 22.51)
+Term wechsler::FS -- Mean score: 68.10 (20.00, 127.00) -- SD: 29.42)
+
+
+Cluster 7 -- Level-4
+
+Term psi-sf::Madre::raw_ts -- Mean score: 98.50 (68.00, 129.50) -- SD: 20.71)
+Term psi-sf::Padre::raw_ts -- Mean score: 74.56 (44.00, 94.00) -- SD: 14.83)
+Term gmds::q_A -- Mean score: 81.29 (66.00, 98.00) -- SD: 11.49)
+Term gmds::q_B -- Mean score: 79.61 (48.00, 103.00) -- SD: 17.26)
+Term gmds::q_C -- Mean score: 80.96 (37.50, 125.50) -- SD: 24.60)
+Term gmds::q_D -- Mean score: 81.00 (58.00, 102.50) -- SD: 13.00)
+Term gmds::q_E -- Mean score: 98.50 (78.50, 116.25) -- SD: 14.49)
+Term gmds::q_F -- Mean score: 89.65 (48.50, 115.33) -- SD: 19.48)
+Term gmds::GQ -- Mean score: 85.04 (56.50, 102.50) -- SD: 14.44)
+Term ados::sa_tot -- Mean score: 8.79 (7.00, 11.00) -- SD: 1.21)
+Term ados::rrb_tot -- Mean score: 2.59 (1.00, 5.00) -- SD: 0.91)
+Term ados::comparison_score -- Mean score: 5.96 (5.25, 7.00) -- SD: 0.38)
+Term wechsler::FS -- Mean score: 76.12 (41.00, 137.00) -- SD: 27.84)
+Term srs::caretaker::raw_tot -- Mean score: 96.36 (64.50, 127.00) -- SD: 19.69)
+Term vineland::caretaker::standard_CD -- Mean score: 81.20 (75.00, 90.00) -- SD: 5.78)
+Term vineland::caretaker::standard_DLSD -- Mean score: 87.00 (75.00, 113.00) -- SD: 13.69)
+Term vineland::caretaker::standard_SD -- Mean score: 85.60 (66.00, 115.00) -- SD: 18.95)
+Term vineland::caretaker::standard_MSD -- Mean score: 76.10 (66.50, 85.00) -- SD: 7.38)
+Term vineland::caretaker::standard_ABC -- Mean score: 80.00 (67.50, 96.00) -- SD: 11.72)
+
+
+Cluster 4 -- Level-4
+
+Term ados::sa_tot -- Mean score: 6.36 (1.00, 18.00) -- SD: 3.64)
+Term ados::rrb_tot -- Mean score: 0.77 (0.00, 5.00) -- SD: 1.24)
+Term ados::comparison_score -- Mean score: 3.95 (1.00, 10.00) -- SD: 2.20)
+Term psi-sf::Madre::raw_ts -- Mean score: 90.00 (52.00, 134.00) -- SD: 23.15)
+Term psi-sf::Padre::raw_ts -- Mean score: 84.15 (47.00, 115.00) -- SD: 17.08)
+Term gmds::q_A -- Mean score: 84.78 (65.00, 109.00) -- SD: 14.96)
+Term gmds::q_B -- Mean score: 77.89 (56.00, 96.00) -- SD: 15.14)
+Term gmds::q_C -- Mean score: 84.00 (44.00, 130.00) -- SD: 32.71)
+Term gmds::q_D -- Mean score: 87.44 (57.00, 118.00) -- SD: 19.49)
+Term gmds::q_E -- Mean score: 93.33 (71.00, 132.00) -- SD: 19.36)
+Term gmds::q_F -- Mean score: 83.00 (56.00, 120.00) -- SD: 26.13)
+Term gmds::GQ -- Mean score: 85.22 (61.00, 112.00) -- SD: 19.73)
+Term vineland::caretaker::standard_CD -- Mean score: 69.62 (38.00, 92.00) -- SD: 14.12)
+Term vineland::caretaker::standard_DLSD -- Mean score: 73.50 (66.00, 94.00) -- SD: 7.72)
+Term vineland::caretaker::standard_SD -- Mean score: 69.12 (42.00, 85.00) -- SD: 10.83)
+Term vineland::caretaker::standard_ABC -- Mean score: 67.29 (36.00, 87.00) -- SD: 12.26)
+Term srs::caretaker::raw_tot -- Mean score: 95.79 (36.50, 170.00) -- SD: 39.12)
+Term vineland::caretaker::standard_MSD -- Mean score: 80.69 (67.00, 91.00) -- SD: 8.41)
+Term wechsler::FS -- Mean score: 82.07 (32.00, 121.00) -- SD: 23.77)
+
+
+Cluster 8 -- Level-4
+
+Term ados::sa_tot -- Mean score: 3.30 (2.00, 4.50) -- SD: 1.08)
+Term ados::rrb_tot -- Mean score: 0.80 (0.00, 2.50) -- SD: 0.93)
+Term ados::comparison_score -- Mean score: 2.20 (1.00, 4.00) -- SD: 1.17)
+Term wechsler::FS -- Mean score: 103.50 (49.00, 132.00) -- SD: 32.11)
+Term psi-sf::Padre::raw_ts -- Mean score: 66.00 (55.00, 77.00) -- SD: 11.00)
+Term psi-sf::Madre::raw_ts -- Mean score: 73.00 (64.00, 82.00) -- SD: 9.00)
+Term srs::caretaker::raw_tot -- Mean score: 90.50 (90.50, 90.50) -- SD: 0.00)
+
+
+Cluster 6 -- Level-4
+
+Term ados::sa_tot -- Mean score: 13.94 (9.33, 16.00) -- SD: 1.65)
+Term ados::rrb_tot -- Mean score: 1.61 (0.00, 5.00) -- SD: 1.41)
+Term ados::comparison_score -- Mean score: 8.47 (7.67, 9.00) -- SD: 0.54)
+Term srs::caretaker::raw_tot -- Mean score: 88.00 (39.00, 113.00) -- SD: 29.33)
+Term vineland::caretaker::standard_CD -- Mean score: 69.08 (54.00, 85.00) -- SD: 9.28)
+Term vineland::caretaker::standard_DLSD -- Mean score: 69.00 (51.00, 96.00) -- SD: 16.36)
+Term vineland::caretaker::standard_SD -- Mean score: 63.92 (53.00, 77.00) -- SD: 8.64)
+Term vineland::caretaker::standard_ABC -- Mean score: 66.17 (53.00, 78.50) -- SD: 9.55)
+Term wechsler::FS -- Mean score: 66.71 (43.00, 98.00) -- SD: 20.31)
+Term psi-sf::Padre::raw_ts -- Mean score: 81.67 (47.00, 102.00) -- SD: 17.22)
+Term psi-sf::Madre::raw_ts -- Mean score: 88.20 (58.00, 130.00) -- SD: 24.95)
+Term gmds::q_A -- Mean score: 66.50 (44.00, 89.00) -- SD: 22.50)
+Term gmds::q_B -- Mean score: 46.00 (24.00, 68.00) -- SD: 22.00)
+Term gmds::q_C -- Mean score: 51.00 (42.00, 60.00) -- SD: 9.00)
+Term gmds::q_D -- Mean score: 49.00 (21.00, 77.00) -- SD: 28.00)
+Term gmds::q_E -- Mean score: 53.00 (21.00, 85.00) -- SD: 32.00)
+Term gmds::q_F -- Mean score: 57.00 (57.00, 57.00) -- SD: 0.00)
+Term gmds::GQ -- Mean score: 54.00 (35.00, 73.00) -- SD: 19.00)
+Term vineland::caretaker::standard_MSD -- Mean score: 73.75 (69.50, 78.00) -- SD: 4.25)
+
+
+Cluster 1 -- Level-4
+
+Term gmds::q_A -- Mean score: 83.94 (63.00, 101.25) -- SD: 10.25)
+Term gmds::q_B -- Mean score: 66.89 (44.00, 88.25) -- SD: 13.37)
+Term gmds::q_C -- Mean score: 57.15 (32.00, 95.00) -- SD: 20.83)
+Term gmds::q_D -- Mean score: 76.74 (43.00, 109.00) -- SD: 15.07)
+Term gmds::q_E -- Mean score: 91.60 (38.00, 126.00) -- SD: 23.94)
+Term gmds::q_F -- Mean score: 67.74 (40.00, 103.00) -- SD: 17.05)
+Term gmds::GQ -- Mean score: 74.30 (55.00, 101.00) -- SD: 13.08)
+Term vineland::caretaker::standard_CD -- Mean score: 67.17 (53.00, 79.00) -- SD: 7.54)
+Term vineland::caretaker::standard_DLSD -- Mean score: 73.57 (42.00, 88.00) -- SD: 12.67)
+Term vineland::caretaker::standard_SD -- Mean score: 66.73 (40.00, 78.00) -- SD: 9.76)
+Term vineland::caretaker::standard_MSD -- Mean score: 79.52 (69.67, 90.00) -- SD: 5.83)
+Term vineland::caretaker::standard_ABC -- Mean score: 66.95 (37.00, 78.00) -- SD: 10.69)
+Term ados::sa_tot -- Mean score: 9.21 (5.00, 14.00) -- SD: 2.17)
+Term ados::rrb_tot -- Mean score: 2.34 (1.00, 5.00) -- SD: 1.32)
+Term ados::comparison_score -- Mean score: 5.38 (3.50, 7.00) -- SD: 0.83)
+Term psi-sf::Madre::raw_ts -- Mean score: 100.95 (64.00, 143.00) -- SD: 23.91)
+Term psi-sf::Padre::raw_ts -- Mean score: 92.44 (68.00, 115.00) -- SD: 16.66)
+Term srs::caretaker::raw_tot -- Mean score: 82.53 (32.00, 134.00) -- SD: 29.52)
+Term wechsler::FS -- Mean score: 87.50 (68.00, 118.00) -- SD: 17.57)
+
+
+Cluster 2 -- Level-4
+
+Term ados::sa_tot -- Mean score: 8.00 (8.00, 8.00) -- SD: 0.00)
+Term ados::rrb_tot -- Mean score: 0.00 (0.00, 0.00) -- SD: 0.00)
+Term ados::comparison_score -- Mean score: 5.00 (5.00, 5.00) -- SD: 0.00)
+Term psi-sf::Madre::raw_ts -- Mean score: 76.50 (72.00, 81.00) -- SD: 3.35)
+Term srs::caretaker::raw_tot -- Mean score: 114.00 (108.00, 126.50) -- SD: 7.41)
+Term wechsler::FS -- Mean score: 87.60 (61.00, 141.00) -- SD: 30.49)
+Term psi-sf::Padre::raw_ts -- Mean score: 75.33 (65.00, 91.00) -- SD: 11.26)
+Term vineland::caretaker::standard_CD -- Mean score: 88.00 (88.00, 88.00) -- SD: 0.00)
+Term vineland::caretaker::standard_DLSD -- Mean score: 103.00 (103.00, 103.00) -- SD: 0.00)
+Term vineland::caretaker::standard_SD -- Mean score: 64.00 (64.00, 64.00) -- SD: 0.00)
+Term vineland::caretaker::standard_ABC -- Mean score: 83.00 (83.00, 83.00) -- SD: 0.00)
+
+
+
+
+

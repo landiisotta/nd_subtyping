@@ -1,0 +1,155 @@
+Cluster: 0
+Mean age: 11.03 -- Min/Max (4.12, 21.74)
+Average number of encounters: 1.35 -- Min/Max (1, 5)
+Sex counts: F = 5 -- M = 35
+Instrument list:
+srs
+wppsi-iiifascia26-311
+wais-iv
+emotionalavailabilityscales
+leiterinternationalperformancescale-revised
+griffithsmentaldevelopmentscales
+ados-2modulo3
+wisc-iv
+wppsi
+wisc-iii
+wppsi-iiifascia40-73
+vineland-ii
+psi-sf
+ados-2modulo2
+ados-2modulo1
+ados-2modulotoddler
+
+
+Cluster: 6
+Mean age: 9.49 -- Min/Max (1.61, 30.79)
+Average number of encounters: 1.56 -- Min/Max (1, 5)
+Sex counts: F = 17 -- M = 60
+Instrument list:
+srs
+wais-iv
+emotionalavailabilityscales
+leiterinternationalperformancescale-revised
+griffithsmentaldevelopmentscales
+ados-2modulo3
+wisc-iv
+wisc-iii
+wppsi-iiifascia40-73
+psi-sf
+vineland-ii
+ados-2modulo2
+ados-2modulo1
+ados-2modulotoddler
+
+
+Cluster: 1
+Mean age: 13.25 -- Min/Max (6.19, 18.69)
+Average number of encounters: 1.38 -- Min/Max (1, 3)
+Sex counts: F = 2 -- M = 22
+Instrument list:
+srs
+leiterinternationalperformancescale-revised
+griffithsmentaldevelopmentscales
+ados-2modulo3
+wisc-iv
+wisc-iii
+psi-sf
+vineland-ii
+ados-2modulo2
+ados-2modulo1
+
+
+Cluster: 7
+Mean age: 14.19 -- Min/Max (6.94, 22.54)
+Average number of encounters: 1.27 -- Min/Max (1, 2)
+Sex counts: F = 2 -- M = 9
+Instrument list:
+srs
+leiterinternationalperformancescale-revised
+griffithsmentaldevelopmentscales
+ados-2modulo3
+wisc-iv
+wisc-iii
+vineland-ii
+psi-sf
+ados-2modulo2
+ados-2modulo1
+
+
+Cluster: 2
+Mean age: 10.50 -- Min/Max (0.44, 22.79)
+Average number of encounters: 1.55 -- Min/Max (1, 4)
+Sex counts: F = 4 -- M = 25
+Instrument list:
+srs
+wppsi-iiifascia26-311
+emotionalavailabilityscales
+leiterinternationalperformancescale-revised
+griffithsmentaldevelopmentscales
+ados-2modulo3
+wisc-iv
+wisc-iii
+wppsi-iiifascia40-73
+psi-sf
+vineland-ii
+ados-2modulo2
+ados-2modulo1
+ados-2modulotoddler
+
+
+Cluster: 3
+Mean age: 10.19 -- Min/Max (4.60, 17.93)
+Average number of encounters: 1.25 -- Min/Max (1, 2)
+Sex counts: F = 1 -- M = 7
+Instrument list:
+srs
+leiterinternationalperformancescale-revised
+griffithsmentaldevelopmentscales
+ados-2modulo3
+wisc-iv
+psi-sf
+vineland-ii
+ados-2modulo2
+ados-2modulo1
+
+
+Cluster: 4
+Mean age: 12.09 -- Min/Max (5.66, 20.02)
+Average number of encounters: 1.00 -- Min/Max (1, 1)
+Sex counts: F = 1 -- M = 5
+Instrument list:
+srs
+wisc-iii
+ados-2modulo3
+wisc-iv
+wppsi-iiifascia40-73
+psi-sf
+ados-2modulo2
+
+
+Cluster: 5
+Mean age: 13.10 -- Min/Max (6.64, 18.33)
+Average number of encounters: 1.14 -- Min/Max (1, 2)
+Sex counts: F = 0 -- M = 7
+Instrument list:
+srs
+leiterinternationalperformancescale-revised
+wisc-iii
+ados-2modulo3
+wisc-iv
+psi-sf
+vineland-ii
+
+
+Ttest_indResult(statistic=-2.033860783837724, pvalue=0.04625037129581062)
+Ttest_indResult(statistic=2.0730420916067205, pvalue=0.0432390793281092)
+Ttest_indResult(statistic=0.13400463596748358, pvalue=0.8941665075443908)
+Ttest_indResult(statistic=0.4285883237372844, pvalue=0.6695976387643725)
+Ttest_indResult(statistic=0.4537707248321885, pvalue=0.6521275328373691)
+Ttest_indResult(statistic=1.895078381849465, pvalue=0.0677550024630619)
+Ttest_indResult(statistic=-0.13754206398530427, pvalue=0.8910480536902905)
+Ttest_indResult(statistic=-0.8522576367275959, pvalue=0.3980556979143559)
+Ttest_indResult(statistic=0.9387248789260164, pvalue=0.35430542822222144)
+Ttest_indResult(statistic=-1.0174969552013877, pvalue=0.31257731130628863)
+Ttest_indResult(statistic=0.35307399594485334, pvalue=0.7256458605410977)
+Ttest_indResult(statistic=0.555174907648204, pvalue=0.582891419891562)

@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f8d71a1-2c78-4d89-a6a1-a8e3906693ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/tokenize-dataset.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create-vocabulary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cluster-biases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cluster-comparison-test.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compare-proportions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/feature-cohort-tmp.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/feature-cohort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patient-representations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/odfDBquery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tokenize-dataset.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tokenize-dataset.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create-tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/create-tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create-vocabulary.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/create-vocabulary.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +25,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="tokenize-dataset.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/tokenize-dataset.sh">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="feature-cohort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/feature-cohort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feature-cohort-tmp.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/feature-cohort-tmp.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patient-representations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patient-representations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-tables.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/create-tables.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="person-instrument.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/person-instrument.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6585">
+              <caret line="439" column="7" selection-start-line="439" selection-end-line="439" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -28,8 +80,8 @@
       <file leaf-file-name="create-vocabulary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/create-vocabulary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="120" column="55" selection-start-line="120" selection-start-column="55" selection-end-line="120" selection-end-column="55" />
+            <state relative-caret-position="150">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -37,11 +89,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/.gitignore">
+      <file leaf-file-name="cohort-behr.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-4/cohort-behr.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inspect-cl.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/inspect-cl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="196" column="35" lean-forward="true" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster-comparison-test.R" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cluster-comparison-test.R">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -52,15 +125,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wisc</find>
-      <find>vinel</find>
-      <find>ados</find>
+      <find>n-enc</find>
+      <find>encoun</find>
+      <find>n_en</find>
+      <find>value</find>
+      <find>lab0135</find>
+      <find>pairwise</find>
+      <find>lab0795</find>
+      <find>lab0512</find>
+      <find>lab0985</find>
+      <find>wechsler::pc</find>
+      <find>wechsler::bd</find>
+      <find>lab0444</find>
+      <find>1490</find>
+      <find>modulo4</find>
+      <find>print</find>
+      <find>lab1731</find>
+      <find>person-</find>
+      <find>feat</find>
+      <find>lab1439</find>
+      <find>lab1245</find>
+      <find>lab1565</find>
+      <find>lab1013</find>
+      <find>lab1090</find>
+      <find>leit</find>
+      <find>leiter</find>
       <find>psi</find>
+      <find>vinel</find>
+      <find>lab1475</find>
+      <find>sumScaled_</find>
+      <find>we</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,15 +169,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/create-tables.py" />
-        <option value="$PROJECT_DIR$/src/Untitled.ipynb" />
-        <option value="$PROJECT_DIR$/scripts/tokenize-dataset.sh" />
-        <option value="$PROJECT_DIR$/src/create-vocabulary.py" />
         <option value="$PROJECT_DIR$/data/.gitignore" />
+        <option value="$PROJECT_DIR$/scripts/run-hc-tfidf.sh" />
+        <option value="$PROJECT_DIR$/src/compare-proportions.py" />
+        <option value="$PROJECT_DIR$/src/inspect-cl-upperlev.py" />
+        <option value="$PROJECT_DIR$/src/Untitled.ipynb" />
+        <option value="$PROJECT_DIR$/src/Untitled.py" />
+        <option value="$PROJECT_DIR$/src/patient-representations.py" />
+        <option value="$PROJECT_DIR$/src/inspection-scaled.py" />
+        <option value="$PROJECT_DIR$/src/double.log" />
+        <option value="$PROJECT_DIR$/scripts/tokenize-dataset.sh" />
+        <option value="$PROJECT_DIR$/scripts/run-encodings-hc.sh" />
+        <option value="$PROJECT_DIR$/src/cluster-biases.py" />
+        <option value="$PROJECT_DIR$/src/patient-encodings.py" />
+        <option value="$PROJECT_DIR$/src/utils.py" />
+        <option value="$PROJECT_DIR$/src/feature-cohort.py" />
+        <option value="$PROJECT_DIR$/src/create-vocabulary.py" />
+        <option value="$PROJECT_DIR$/src/cluster-comparison-test.R" />
+        <option value="$PROJECT_DIR$/src/create-tables.py" />
+        <option value="$PROJECT_DIR$/src/inspect-cl.py" />
+        <option value="$PROJECT_DIR$/src/feature-cohort-tmp.ipynb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -87,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,33 +218,14 @@
               <item name="nd_subtyping" type="b2602c69:ProjectViewProjectNode" />
               <item name="nd_subtyping" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="odf-data-2019-05-20-11-04-47" type="462c0819:PsiDirectoryNode" />
+              <item name="odf-data-2019-06-13-12-28-37" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nd_subtyping" type="b2602c69:ProjectViewProjectNode" />
               <item name="nd_subtyping" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="odf-data-2019-05-20-11-04-47" type="462c0819:PsiDirectoryNode" />
-              <item name="level-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nd_subtyping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nd_subtyping" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="odf-data-2019-05-20-11-04-47" type="462c0819:PsiDirectoryNode" />
-              <item name="level-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nd_subtyping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nd_subtyping" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="odf-data-2019-05-20-11-04-47" type="462c0819:PsiDirectoryNode" />
-              <item name="level-3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nd_subtyping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nd_subtyping" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="odf-data-2019-06-13-12-28-37" type="462c0819:PsiDirectoryNode" />
+              <item name="level-4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nd_subtyping" type="b2602c69:ProjectViewProjectNode" />
@@ -141,10 +236,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last.edited.regexp" value="scaled_pcn::" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jupyter Notebook.nd_subtyping">
     <configuration name="create-tables" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="nd_subtyping" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,9 +275,77 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="create-vocabulary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nd_subtyping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/create-vocabulary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="patient-encodings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nd_subtyping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/patient-encodings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="nd_subtyping" type="Python.Ipnb" factoryName="Jupyter Notebook">
+      <module name="nd_subtyping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration name="cluster-comparison-test" type="RRunConfigurationType" factoryName="R" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/cluster-comparison-test.R" />
+      <option name="SCRIPT_ARGS" value="" />
+      <option name="WORKING_DIRECTORY_PATH" value="$PROJECT_DIR$/src" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.nd_subtyping" />
+      <item itemvalue="Python.create-tables" />
+      <item itemvalue="Python.patient-encodings" />
+      <item itemvalue="Python.create-vocabulary" />
+      <item itemvalue="R.cluster-comparison-test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="R.cluster-comparison-test" />
         <item itemvalue="Python.create-tables" />
+        <item itemvalue="Python.create-vocabulary" />
+        <item itemvalue="Python.patient-encodings" />
       </list>
     </recent_temporary>
   </component>
@@ -206,34 +372,361 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32820514" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" visible="true" weight="0.27307692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37692308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/inspect-cl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="186" column="11" lean-forward="true" selection-start-line="186" selection-start-column="11" selection-end-line="186" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster-comparison-test.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/feature-cohort-tmp.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/create-tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patient-encodings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="226" column="2" selection-start-line="226" selection-start-column="2" selection-end-line="226" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/feature-cohort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/feature-cohort-tmp.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run_glove.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dfs.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inspect-cl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4530">
+          <caret line="311" column="13" selection-start-line="311" selection-start-column="13" selection-end-line="311" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster-comparison-test.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/create-tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patient-encodings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="226" column="2" selection-start-line="226" selection-start-column="2" selection-end-line="226" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/feature-cohort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/feature-cohort-tmp.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run_glove.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dfs.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inspect-cl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4530">
+          <caret line="311" column="13" lean-forward="true" selection-start-line="311" selection-start-column="13" selection-end-line="311" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster-comparison-test.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/create-tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-19-17/person-instrument.csv" />
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-03-15-37-39/level-4/cohort-vocab.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/run-encodings-hc.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-1/vocabulary-l1.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/encodings-l1.log" />
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-2/encodings-l2.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-3/encodings-l3.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-4/encodings-l4.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/encodings-l4.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1820">
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GloVe-1.2/eval/python/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-857" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-4/cohort-vocab.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="50" column="5" selection-start-line="50" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/header-tables.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="384" selection-start-line="15" selection-start-column="384" selection-end-line="15" selection-end-column="384" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-3/cohort-behr.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="1085" column="7" selection-start-line="1085" selection-end-line="1085" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-3/cohort-vocab.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3389">
+          <caret line="151" column="2" selection-start-line="151" selection-end-line="151" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-2/cohort-vocab.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/tokenize-dataset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster-biases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patient-encodings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="226" column="2" selection-start-line="226" selection-start-column="2" selection-end-line="226" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run_glove.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dfs.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/person-instrument.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6585">
+          <caret line="439" column="7" selection-start-line="439" selection-end-line="439" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-06-13-12-28-37/level-4/cohort-behr.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/create-vocabulary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patient-representations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/data-statistics.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -241,80 +734,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Untitled.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
+    <entry file="file://$PROJECT_DIR$/src/cluster-comparison-test.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/create-tables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-835">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="840">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/tokenize-dataset.sh">
+    <entry file="file://$PROJECT_DIR$/src/feature-cohort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-05-20-11-04-47/level-1/cohort-vocab.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-05-20-11-04-47/person-scores.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18522" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-05-20-11-04-47/level-2/cohort-vocab.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="367" column="3" selection-start-line="367" selection-end-line="367" selection-end-column="3" />
+    <entry file="file://$PROJECT_DIR$/src/feature-cohort-tmp.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-05-20-11-04-47/level-3/cohort-vocab.csv">
+    <entry file="file://$PROJECT_DIR$/src/inspect-cl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1977" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-05-20-11-04-47/level-3/cohort-behr.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1351" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-05-20-11-04-47/level-2/cohort-behr.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-05-20-11-04-47/level-1/cohort-behr.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/odf-data-2019-05-20-11-04-47/header-tables.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/create-vocabulary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="120" column="55" selection-start-line="120" selection-start-column="55" selection-end-line="120" selection-end-column="55" />
+        <state relative-caret-position="231">
+          <caret line="196" column="35" lean-forward="true" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,576 @@
+[3J[H[2J
+Number of repeated terms: 567 -- Terms with one occurrence: 491
+
+Most frequent terms (TF>20)
+ados::rrb_tot::1, 45
+ados::comparison_score::5, 23
+ados::sa_tot::11, 28
+ados::rrb_tot::3, 35
+ados::comparison_score::6, 71
+ados::sa_tot::8, 23
+ados::rrb_tot::0, 44
+ados::comparison_score::7, 40
+ados::rrb_tot::4, 31
+ados::sa_tot::9, 24
+ados::rrb_tot::2, 43
+
+
+Computing TF-IDF matrix...
+Performing SVD on the TF-IDF matrix...
+(*) Iter 0 -- N clusters 2
+(*) Iter 1 -- N clusters 2
+(*) Iter 2 -- N clusters 2
+(*) Iter 3 -- N clusters 2
+(*) Iter 4 -- N clusters 2
+(*) Iter 5 -- N clusters 2
+(*) Iter 6 -- N clusters 2
+(*) Iter 7 -- N clusters 8
+(*) Iter 8 -- N clusters 14
+(*) Iter 9 -- N clusters 2
+(*) Iter 10 -- N clusters 2
+(*) Iter 11 -- N clusters 2
+(*) Iter 12 -- N clusters 2
+(*) Iter 13 -- N clusters 2
+(*) Iter 14 -- N clusters 3
+(*) Iter 15 -- N clusters 3
+(*) Iter 16 -- N clusters 2
+(*) Iter 17 -- N clusters 2
+(*) Iter 18 -- N clusters 2
+(*) Iter 19 -- N clusters 14
+(*) Iter 20 -- N clusters 2
+(*) Iter 21 -- N clusters 2
+(*) Iter 22 -- N clusters 14
+(*) Iter 23 -- N clusters 2
+(*) Iter 24 -- N clusters 14
+(*) Iter 25 -- N clusters 2
+(*) Iter 26 -- N clusters 3
+(*) Iter 27 -- N clusters 2
+(*) Iter 28 -- N clusters 2
+(*) Iter 29 -- N clusters 14
+(*) Iter 30 -- N clusters 2
+(*) Iter 31 -- N clusters 2
+(*) Iter 32 -- N clusters 2
+(*) Iter 33 -- N clusters 2
+(*) Iter 34 -- N clusters 13
+(*) Iter 35 -- N clusters 2
+(*) Iter 36 -- N clusters 2
+(*) Iter 37 -- N clusters 14
+(*) Iter 38 -- N clusters 3
+(*) Iter 39 -- N clusters 2
+(*) Iter 40 -- N clusters 2
+(*) Iter 41 -- N clusters 2
+(*) Iter 42 -- N clusters 14
+(*) Iter 43 -- N clusters 3
+(*) Iter 44 -- N clusters 4
+(*) Iter 45 -- N clusters 3
+(*) Iter 46 -- N clusters 2
+(*) Iter 47 -- N clusters 2
+(*) Iter 48 -- N clusters 2
+(*) Iter 49 -- N clusters 2
+(*) Iter 50 -- N clusters 2
+(*) Iter 51 -- N clusters 2
+(*) Iter 52 -- N clusters 3
+(*) Iter 53 -- N clusters 2
+(*) Iter 54 -- N clusters 3
+(*) Iter 55 -- N clusters 14
+(*) Iter 56 -- N clusters 2
+(*) Iter 57 -- N clusters 4
+(*) Iter 58 -- N clusters 2
+(*) Iter 59 -- N clusters 2
+(*) Iter 60 -- N clusters 14
+(*) Iter 61 -- N clusters 3
+(*) Iter 62 -- N clusters 2
+(*) Iter 63 -- N clusters 3
+(*) Iter 64 -- N clusters 2
+(*) Iter 65 -- N clusters 14
+(*) Iter 66 -- N clusters 14
+(*) Iter 67 -- N clusters 2
+(*) Iter 68 -- N clusters 3
+(*) Iter 69 -- N clusters 9
+(*) Iter 70 -- N clusters 2
+(*) Iter 71 -- N clusters 3
+(*) Iter 72 -- N clusters 2
+(*) Iter 73 -- N clusters 2
+(*) Iter 74 -- N clusters 2
+(*) Iter 75 -- N clusters 6
+(*) Iter 76 -- N clusters 2
+(*) Iter 77 -- N clusters 3
+(*) Iter 78 -- N clusters 2
+(*) Iter 79 -- N clusters 2
+(*) Iter 80 -- N clusters 2
+(*) Iter 81 -- N clusters 2
+(*) Iter 82 -- N clusters 2
+(*) Iter 83 -- N clusters 2
+(*) Iter 84 -- N clusters 14
+(*) Iter 85 -- N clusters 2
+(*) Iter 86 -- N clusters 2
+(*) Iter 87 -- N clusters 3
+(*) Iter 88 -- N clusters 2
+(*) Iter 89 -- N clusters 3
+(*) Iter 90 -- N clusters 14
+(*) Iter 91 -- N clusters 2
+(*) Iter 92 -- N clusters 3
+(*) Iter 93 -- N clusters 10
+(*) Iter 94 -- N clusters 8
+(*) Iter 95 -- N clusters 2
+(*) Iter 96 -- N clusters 2
+(*) Iter 97 -- N clusters 2
+(*) Iter 98 -- N clusters 14
+(*) Iter 99 -- N clusters 2
+Counts of N clusters:
+N clusters -- Count
+2 62
+3 16
+4 2
+6 1
+8 2
+9 1
+10 1
+13 1
+14 14
+
+Best N cluster:2
+(*) Number of clusters 2 -- Silhouette score 0.32
+    MCC RF classifier: 1.00
+Cluster 0 -- Numerosity 47
+Cluster 1 -- Numerosity 155
+
+
+
+
+List of most frequent terms (t) in each cluster
+The percentage of t in the cluster and the number of subject with t in their sequence is reported
+Only terms with significant proportion compared to other clusters are reported (see Proportion ztest tables)
+
+Cluster 0 numerosity: 47
+% Term:ados::rrb_tot::0 = 0.91 -- N patients in cluster 37 out of 47
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:ados::comparison_score::3 = 1.00 -- N patients in cluster 15 out of 47
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:ados::sa_tot::6 = 0.82 -- N patients in cluster 9 out of 47
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:ados::comparison_score::5 = 0.39 -- N patients in cluster 9 out of 47
+['ztest', 'cl1']
+['cl0', '0.004']
+% Term:ados::sa_tot::8 = 0.35 -- N patients in cluster 8 out of 47
+['ztest', 'cl1']
+['cl0', '0.019']
+% Term:ados::comparison_score::4 = 0.44 -- N patients in cluster 8 out of 47
+['ztest', 'cl1']
+['cl0', '0.001']
+% Term:ados::sa_tot::4 = 1.00 -- N patients in cluster 6 out of 47
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:ados::sa_tot::5 = 1.00 -- N patients in cluster 5 out of 47
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:ados::sa_tot::7 = 0.35 -- N patients in cluster 5 out of 47
+['ztest', 'cl1']
+['cl0', '0.038']
+% Term:ados::comparison_score::1 = 0.67 -- N patients in cluster 5 out of 47
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:ados::comparison_score::2 = 0.57 -- N patients in cluster 4 out of 47
+['ztest', 'cl1']
+['cl0', '0.004']
+% Term:ados::sa_tot::3 = 0.50 -- N patients in cluster 4 out of 47
+['ztest', 'cl1']
+['cl0', '0.011']
+% Term:vineland::caretaker::standard_DLSD::66 = 0.44 -- N patients in cluster 3 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_CD::88 = 1.00 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:gmds::q_B::94 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:srs::caretaker::raw_tot::119 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Padre::raw_ts::91 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:vineland::caretaker::standard_DLSD::68 = 1.00 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:vineland::caretaker::standard_CD::79 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:wechsler::FS::97 = 1.00 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:srs::caretaker::raw_tot::116 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:wechsler::FS::109 = 1.00 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:psi-sf::Padre::raw_ts::61 = 1.00 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:psi-sf::Padre::raw_ts::75 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:srs::caretaker::raw_tot::63 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Padre::raw_ts::97 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:srs::caretaker::raw_tot::97 = 1.00 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:psi-sf::Madre::raw_ts::110 = 1.00 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:ados::sa_tot::2 = 0.75 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:psi-sf::Padre::raw_ts::77 = 0.67 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Madre::raw_ts::65 = 1.00 -- N patients in cluster 2 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:gmds::q_C::61 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_F::112 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_C::75 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::132 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::9 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_DLSD::94 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_MSD::88 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::149 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::83 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::78 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Padre::raw_ts::55 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::GQ::109 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_B::96 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::55 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::124 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Padre::raw_ts::87 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_E::132 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_D::118 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_CD::75 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Madre::raw_ts::115 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::42 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_SD::85 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_E::103 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::GQ::77 = 0.67 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Padre::raw_ts::101 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::73 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_C::127 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Madre::raw_ts::53 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::131 = 0.67 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:wechsler::FS::102 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::121 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::GQ::111 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::52 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::188 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:psi-sf::Padre::raw_ts::92 = 0.67 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:vineland::caretaker::standard_ABC::87 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Madre::raw_ts::116 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Padre::raw_ts::100 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_C::130 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::31 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::32 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::135 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_E::74 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_E::72 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:ados::rrb_tot::3 = 0.03 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.028']
+% Term:vineland::caretaker::standard_SD::42 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::104 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Padre::raw_ts::40 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Padre::raw_ts::120 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Padre::raw_ts::65 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_F::74 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_D::89 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_DLSD::74 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_CD::87 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_CD::62 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:vineland::caretaker::standard_SD::71 = 0.67 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:srs::caretaker::raw_tot::156 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:srs::caretaker::raw_tot::26 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_CD::92 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_ABC::83 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::128 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::49 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:ados::rrb_tot::4 = 0.03 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.044']
+% Term:wechsler::FS::133 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::115 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::125 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_ABC::48 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_SD::62 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Madre::raw_ts::41 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::67 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Padre::raw_ts::76 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::64 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_DLSD::103 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::141 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_SD::82 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::25 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Madre::raw_ts::80 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_F::114 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:srs::caretaker::raw_tot::152 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:gmds::q_A::90 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:psi-sf::Madre::raw_ts::52 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:wechsler::FS::121 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:wechsler::FS::96 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:vineland::caretaker::standard_CD::51 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:gmds::q_D::114 = 1.00 -- N patients in cluster 1 out of 47
+['ztest', 'cl1']
+['cl0', '0.025']
+
+
+Cluster 1 numerosity: 155
+% Term:ados::rrb_tot::3 = 0.97 -- N patients in cluster 32 out of 155
+['ztest', 'cl1']
+['cl0', '0.028']
+% Term:ados::rrb_tot::4 = 0.97 -- N patients in cluster 28 out of 155
+['ztest', 'cl1']
+['cl0', '0.044']
+% Term:ados::sa_tot::8 = 0.65 -- N patients in cluster 15 out of 155
+['ztest', 'cl1']
+['cl0', '0.019']
+% Term:ados::comparison_score::5 = 0.61 -- N patients in cluster 13 out of 155
+['ztest', 'cl1']
+['cl0', '0.004']
+% Term:ados::sa_tot::7 = 0.65 -- N patients in cluster 11 out of 155
+['ztest', 'cl1']
+['cl0', '0.038']
+% Term:ados::comparison_score::4 = 0.56 -- N patients in cluster 10 out of 155
+['ztest', 'cl1']
+['cl0', '0.001']
+% Term:vineland::caretaker::standard_DLSD::66 = 0.56 -- N patients in cluster 5 out of 155
+['ztest', 'cl1']
+['cl0', '0.025']
+% Term:ados::sa_tot::3 = 0.50 -- N patients in cluster 4 out of 155
+['ztest', 'cl1']
+['cl0', '0.011']
+% Term:ados::rrb_tot::0 = 0.09 -- N patients in cluster 4 out of 155
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:ados::comparison_score::1 = 0.33 -- N patients in cluster 3 out of 155
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:ados::comparison_score::2 = 0.43 -- N patients in cluster 3 out of 155
+['ztest', 'cl1']
+['cl0', '0.004']
+% Term:ados::sa_tot::6 = 0.18 -- N patients in cluster 2 out of 155
+['ztest', 'cl1']
+['cl0', '0.000']
+% Term:vineland::caretaker::standard_CD::79 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:ados::sa_tot::2 = 0.25 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.002']
+% Term:gmds::GQ::77 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Padre::raw_ts::92 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Padre::raw_ts::97 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Padre::raw_ts::77 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:gmds::q_B::94 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:srs::caretaker::raw_tot::119 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:srs::caretaker::raw_tot::131 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:srs::caretaker::raw_tot::63 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Padre::raw_ts::91 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:srs::caretaker::raw_tot::116 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:psi-sf::Padre::raw_ts::75 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+% Term:vineland::caretaker::standard_SD::71 = 0.33 -- N patients in cluster 1 out of 155
+['ztest', 'cl1']
+['cl0', '0.020']
+
+

@@ -1,0 +1,34 @@
+Cluster 0 -- Level-3
+
+Term srs::Madre::raw_tot -- Mean score: 96.27 (9.00, 188.00) -- SD: 37.99)
+Term griffithsmentaldevelopmentscales::GQ -- Mean score: 84.09 (61.00, 112.00) -- SD: 18.03)
+Term wechsler::FS -- Mean score: 88.94 (32.00, 141.00) -- SD: 28.33)
+Term ados::sarrb_tot -- Mean score: 7.16 (2.00, 18.00) -- SD: 3.18)
+Term psi-sf::Madre::raw_ts -- Mean score: 84.30 (41.00, 134.00) -- SD: 22.14)
+Term psi-sf::Padre::raw_ts -- Mean score: 79.12 (40.00, 120.00) -- SD: 19.30)
+Term vineland-ii::Madre::standard_ABC -- Mean score: 67.17 (36.00, 87.00) -- SD: 16.23)
+Term vineland-ii::Madre e Padre insieme::standard_ABC -- Mean score: 69.64 (57.50, 83.00) -- SD: 7.85)
+Term srs::Padre::raw_tot -- Mean score: 99.56 (26.00, 156.00) -- SD: 40.85)
+Term vineland-ii::Padre::standard_ABC -- Mean score: 73.00 (73.00, 73.00) -- SD: 0.00)
+
+
+Cluster 1 -- Level-3
+
+Term griffithsmentaldevelopmentscales::GQ -- Mean score: 65.61 (21.00, 103.00) -- SD: 20.98)
+Term vineland-ii::Madre::standard_ABC -- Mean score: 65.49 (31.00, 102.00) -- SD: 15.82)
+Term vineland-ii::Padre::standard_ABC -- Mean score: 69.29 (53.00, 80.00) -- SD: 8.61)
+Term ados::sarrb_tot -- Mean score: 14.57 (2.00, 25.00) -- SD: 4.34)
+Term psi-sf::Madre::raw_ts -- Mean score: 90.75 (36.00, 147.00) -- SD: 23.35)
+Term psi-sf::Padre::raw_ts -- Mean score: 84.46 (36.00, 136.00) -- SD: 21.24)
+Term wechsler::FS -- Mean score: 75.04 (20.00, 137.00) -- SD: 27.26)
+Term srs::Madre::raw_tot -- Mean score: 91.62 (18.00, 166.00) -- SD: 35.15)
+Term srs::Padre::raw_tot -- Mean score: 86.32 (37.00, 169.00) -- SD: 28.81)
+Term vineland-ii::Genitore::standard_ABC -- Mean score: 66.90 (37.00, 100.00) -- SD: 15.16)
+Term vineland-ii::altro::standard_ABC -- Mean score: 61.00 (36.00, 74.00) -- SD: 14.98)
+Term vineland-ii::Madre e Padre insieme::standard_ABC -- Mean score: 66.79 (20.00, 106.00) -- SD: 14.27)
+Term srs::altro::raw_tot -- Mean score: 46.00 (46.00, 46.00) -- SD: 0.00)
+
+
+
+
+

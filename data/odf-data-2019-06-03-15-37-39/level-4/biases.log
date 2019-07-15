@@ -1,0 +1,82 @@
+Cluster: 0
+Mean age: 13.90 -- Min/Max (1.11, 61.83)
+Average number of encounters: 1.40 -- Min/Max (1, 5)
+Sex counts: F = 33 -- M = 189
+Instrument list:
+wppsi-iiifascia40-73
+wppsi
+ados-2modulo2
+wais-r
+ados-2modulo3
+emotionalavailabilityscales
+srs
+psi-sf
+griffithsmentaldevelopmentscales
+wisc-iv
+leiterinternationalperformancescale-revised
+vineland-ii
+ados-2modulotoddler
+wppsi-iiifascia26-311
+wais-iv
+wisc-iii
+ados-2modulo4
+ados-2modulo1
+
+
+Cluster: 1
+Mean age: 13.02 -- Min/Max (5.66, 20.29)
+Average number of encounters: 1.29 -- Min/Max (1, 2)
+Sex counts: F = 2 -- M = 12
+Instrument list:
+wppsi-iiifascia40-73
+leiterinternationalperformancescale-revised
+ados-2modulo2
+ados-2modulo3
+wisc-iii
+srs
+psi-sf
+griffithsmentaldevelopmentscales
+ados-2modulo4
+wisc-iv
+
+
+Cluster: 3
+Mean age: 13.10 -- Min/Max (6.64, 18.33)
+Average number of encounters: 1.14 -- Min/Max (1, 2)
+Sex counts: F = 0 -- M = 7
+Instrument list:
+leiterinternationalperformancescale-revised
+vineland-ii
+ados-2modulo3
+srs
+psi-sf
+wisc-iii
+wisc-iv
+
+
+Cluster: 2
+Mean age: 21.84 -- Min/Max (17.53, 25.64)
+Average number of encounters: 1.50 -- Min/Max (1, 2)
+Sex counts: F = 0 -- M = 4
+Instrument list:
+wais-iv
+srs
+psi-sf
+wisc-iii
+ados-2modulo4
+wais-r
+ados-2modulo3
+
+
+Ttest_indResult(statistic=0.3466080767557761, pvalue=0.7291972573458869)
+Ttest_indResult(statistic=-3.0934399843781937, pvalue=0.0069750580769886265)
+Ttest_indResult(statistic=3.8541599921528245, pvalue=0.003881551711907079)
+Ttest_indResult(statistic=-1.676898651649637, pvalue=0.09495722338264755)
+Ttest_indResult(statistic=0.22433492349136408, pvalue=0.8226984926835643)
+Ttest_indResult(statistic=-0.03574229896063712, pvalue=0.9718606897702766)
+Ttest_indResult(statistic=0.5439721027621747, pvalue=0.5869785856585026)
+Ttest_indResult(statistic=-0.7698003589195006, pvalue=0.4526345886242169)
+Ttest_indResult(statistic=1.2543630150106364, pvalue=0.2413074169829496)
+Ttest_indResult(statistic=-0.25180623363228477, pvalue=0.8014217121777788)
+Ttest_indResult(statistic=0.8678850975075104, pvalue=0.3863738016440459)
+Ttest_indResult(statistic=0.6979824404521136, pvalue=0.49364258763710267)

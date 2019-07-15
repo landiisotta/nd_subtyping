@@ -3,7 +3,7 @@
 clear
 projdir=..
 datadir=$projdir/data
-indir=$datadir/odf-data-2019-05-20-11-04-47
+indir=$datadir/odf-data-2019-06-13-12-28-37
 
 level=$1
 

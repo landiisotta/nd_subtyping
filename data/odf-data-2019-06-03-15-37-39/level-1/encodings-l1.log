@@ -1,0 +1,1768 @@
+[3J[H[2J
+Number of repeated terms: 1264 -- Terms with one occurrence: 556
+
+Most frequent terms (TF>20)
+ados-2modulo1::a2::2, 34
+ados-2modulo1::a8::1, 35
+ados::b1::2, 234
+ados-2modulo1::b3::1, 77
+ados-2modulo1::b4::1, 55
+ados-2modulo1::b5::1, 40
+ados-2modulo1::b9::2, 62
+ados-2modulo1::b10::2, 24
+ados-2modulo1::b12::1, 67
+ados-2modulo1::a3::0, 28
+ados::d1::0, 201
+ados::d2::0, 182
+ados-2modulo1::d4::1, 38
+ados-2modulo1::a7::1, 36
+ados-2modulo1::a8::0, 28
+ados-2modulo1::b9::1, 24
+ados-2modulo1::b10::1, 56
+ados-2modulo1::a5::0, 36
+ados::d1::1, 56
+ados::d2::1, 45
+ados-2modulo1::b5::0, 43
+ados::d2::2, 58
+ados-2modulo2::b2::1, 27
+ados-2modulo2::b8::1, 29
+ados-2modulo2::b12::1, 22
+ados::b1::0, 47
+ados-2modulo1::d4::2, 43
+ados-2modulo1::a2::1, 52
+ados::d1::2, 28
+ados-2modulo2::b3::0, 22
+ados-2modulo2::d4::1, 21
+ados-2modulo1::a8::2, 31
+ados-2modulo1::b4::2, 27
+ados-2modulo1::b12::2, 21
+ados-2modulo3::a7::1, 51
+ados-2modulo3::a8::1, 38
+ados-2modulo3::a9::0, 46
+ados-2modulo3::b2::1, 66
+ados-2modulo3::b4::0, 52
+ados-2modulo3::b7::1, 63
+ados-2modulo3::b9::1, 60
+ados-2modulo3::b10::0, 46
+ados-2modulo3::b11::0, 37
+ados-2modulo3::a4::0, 80
+ados-2modulo3::d4::0, 63
+ados-2modulo3::a9::2, 21
+ados-2modulo3::b11::1, 42
+ados-2modulo3::b10::1, 28
+ados-2modulo3::a7::0, 22
+ados-2modulo3::b9::0, 22
+ados-2modulo3::d4::1, 24
+ados-2modulo3::a7::2, 21
+ados-2modulo3::b4::1, 33
+ados-2modulo3::a8::2, 21
+ados-2modulo3::a9::1, 27
+ados-2modulo3::a8::0, 35
+ados-2modulo3::b7::0, 21
+ados-2modulo4::a4::0, 46
+ados-2modulo4::a8::0, 26
+ados-2modulo4::a10::1, 23
+ados-2modulo4::b2::1, 35
+ados-2modulo4::b8::0, 37
+ados-2modulo4::b9::1, 26
+ados-2modulo4::b11::1, 27
+ados-2modulo4::b12::0, 28
+ados-2modulo4::c1::1, 23
+ados-2modulo4::d4::0, 41
+ados-2modulo4::d5::0, 41
+ados-2modulo4::a9::0, 27
+ados-2modulo4::b11::0, 21
+
+
+Computing TF-IDF matrix...
+Performing SVD on the TF-IDF matrix...
+(*) Number of clusters 3 -- Silhouette score 0.30
+    MCC RF classifier: 0.97
+(*) Number of clusters 4 -- Silhouette score 0.30
+    MCC RF classifier: 0.98
+(*) Number of clusters 5 -- Silhouette score 0.28
+    MCC RF classifier: 0.84
+(*) Number of clusters 6 -- Silhouette score 0.28
+    MCC RF classifier: 0.90
+(*) Number of clusters 7 -- Silhouette score 0.30
+    MCC RF classifier: 0.92
+(*) Number of clusters 8 -- Silhouette score 0.31
+    MCC RF classifier: 0.87
+(*) Number of clusters 9 -- Silhouette score 0.30
+    MCC RF classifier: 0.85
+(*) Number of clusters 10 -- Silhouette score 0.29
+    MCC RF classifier: 0.86
+(*) Number of clusters 11 -- Silhouette score 0.27
+    MCC RF classifier: 0.91
+(*) Number of clusters 12 -- Silhouette score 0.27
+    MCC RF classifier: 0.79
+(*) Number of clusters 13 -- Silhouette score 0.28
+    MCC RF classifier: 0.88
+(*) Number of clusters 14 -- Silhouette score 0.28
+    MCC RF classifier: 0.90
+
+
+MCC: 0.9786 -- silhouette score: 0.3046 -- Number of clusters: 4
+
+Cluster 0 -- Numerosity 76
+Cluster 1 -- Numerosity 54
+Cluster 2 -- Numerosity 70
+Cluster 3 -- Numerosity 47
+
+
+List of most frequent terms (t) in each cluster
+The percentage of t in the cluster and the number of subject with t in their sequence is reported
+Only terms with significant proportion compared to other clusters are reported (see Proportion ztest tables)
+
+Cluster 0 numerosity: 76
+% Term:ados-2modulo3::a4::0 = 0.90 -- N patients in cluster 64 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.745', '0.881']
+['cl2', '0.000', '0.000', '0.408']
+% Term:ados::d1::0 = 0.36 -- N patients in cluster 63 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.224', '0.001', '1.569']
+['cl1', '0.000', '0.909', '0.021']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::d2::0 = 0.40 -- N patients in cluster 60 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.007', '0.000', '1.278']
+['cl1', '0.000', '1.146', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::b2::1 = 0.92 -- N patients in cluster 57 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.639', '1.855']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo3::b7::1 = 0.92 -- N patients in cluster 53 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.745', '5.215']
+['cl2', '0.000', '0.000', '5.754']
+% Term:ados-2modulo3::b9::1 = 0.90 -- N patients in cluster 51 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.345', '0.759']
+['cl2', '0.000', '0.000', '1.070']
+% Term:ados-2modulo3::d4::0 = 0.89 -- N patients in cluster 51 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.345', '0.315']
+['cl2', '0.000', '0.000', '0.408']
+% Term:ados-2modulo3::a7::1 = 0.94 -- N patients in cluster 43 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '5.108', '4.352']
+['cl2', '0.000', '0.000', '3.504']
+% Term:ados-2modulo3::b4::0 = 0.88 -- N patients in cluster 42 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.500', '1.855']
+['cl2', '0.000', '0.000', '0.388']
+% Term:ados-2modulo3::b10::0 = 0.91 -- N patients in cluster 41 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '1.522', '0.759']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo3::a9::0 = 0.89 -- N patients in cluster 39 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.001']
+['cl1', '0.000', '0.639', '1.855']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo3::b11::1 = 0.93 -- N patients in cluster 38 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.285', '0.423']
+['cl2', '0.000', '0.000', '1.182']
+% Term:ados-2modulo3::a8::1 = 0.89 -- N patients in cluster 31 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.500', '5.215']
+['cl2', '0.000', '0.000', '3.504']
+% Term:ados-2modulo3::b11::0 = 0.86 -- N patients in cluster 30 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '2.500', '3.715']
+['cl2', '0.000', '0.000', '1.182']
+% Term:ados-2modulo3::a8::0 = 0.89 -- N patients in cluster 29 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.009']
+['cl1', '0.000', '2.285', '0.160']
+['cl2', '0.000', '0.000', '0.388']
+% Term:ados-2modulo3::b4::1 = 0.94 -- N patients in cluster 28 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.001']
+['cl1', '0.000', '2.285', '1.205']
+['cl2', '0.000', '0.000', '3.504']
+% Term:ados-2modulo3::b10::1 = 0.93 -- N patients in cluster 26 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.004']
+['cl1', '0.000', '1.522', '4.352']
+['cl2', '0.000', '0.000', '0.866']
+% Term:ados-2modulo3::a9::1 = 0.96 -- N patients in cluster 24 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.003']
+['cl1', '0.000', '0.000', '1.005']
+['cl2', '0.000', '0.000', '0.722']
+% Term:ados::b1::0 = 0.53 -- N patients in cluster 22 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '0.000', '5.228']
+['cl1', '0.000', '4.245', '0.003']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::d4::1 = 0.96 -- N patients in cluster 21 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '1.269', '2.171']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::b7::0 = 0.90 -- N patients in cluster 19 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.076']
+['cl1', '0.000', '0.000', '0.352']
+['cl2', '0.000', '0.000', '0.195']
+% Term:ados-2modulo3::a7::2 = 0.95 -- N patients in cluster 19 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.005']
+['cl1', '0.000', '1.904', '0.000']
+['cl2', '0.000', '0.000', '2.466']
+% Term:ados-2modulo3::b9::0 = 0.91 -- N patients in cluster 18 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.001', '0.000', '0.023']
+['cl1', '0.000', '1.522', '4.352']
+['cl2', '0.000', '0.000', '0.866']
+% Term:ados-2modulo3::a9::2 = 0.90 -- N patients in cluster 18 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.007']
+['cl1', '0.000', '1.076', '0.000']
+['cl2', '0.000', '0.000', '1.662']
+% Term:ados-2modulo3::a8::2 = 1.00 -- N patients in cluster 17 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::a7::0 = 0.82 -- N patients in cluster 17 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '0.000', '0.295']
+['cl1', '0.000', '1.522', '0.759']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo3::b10::2 = 0.90 -- N patients in cluster 14 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.001', '0.010']
+['cl1', '0.000', '1.076', '0.000']
+['cl2', '0.000', '0.000', '1.662']
+% Term:ados-2modulo3::a4::1 = 1.00 -- N patients in cluster 13 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.001', '0.000', '0.019']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::b2::0 = 0.93 -- N patients in cluster 13 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.004', '0.001', '0.151']
+['cl1', '0.000', '0.000', '1.005']
+['cl2', '0.000', '0.000', '0.722']
+% Term:wechsler::si::10 = 0.86 -- N patients in cluster 12 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.006', '0.001', '0.542']
+['cl1', '0.000', '0.000', '0.352']
+['cl2', '0.000', '0.000', '0.195']
+% Term:ados-2modulo3::b11::2 = 1.00 -- N patients in cluster 12 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.001', '0.000', '0.014']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::b9::2 = 1.00 -- N patients in cluster 11 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.004', '0.001', '0.035']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::b2::2 = 0.86 -- N patients in cluster 11 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.006', '0.018', '0.058']
+['cl1', '0.000', '1.076', '0.000']
+['cl2', '0.000', '0.000', '1.662']
+% Term:wechsler::ss::7 = 0.63 -- N patients in cluster 11 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.238', '0.006', '1.390']
+['cl1', '0.000', '1.215', '3.255']
+['cl2', '0.000', '0.000', '0.388']
+% Term:wechsler::ss::6 = 0.73 -- N patients in cluster 10 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.360', '0.002', '0.329']
+['cl1', '0.000', '0.288', '3.561']
+['cl2', '0.000', '0.000', '0.866']
+% Term:wechsler::mr::14 = 0.69 -- N patients in cluster 9 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.124', '0.008', '2.886']
+['cl1', '0.000', '1.522', '0.759']
+['cl2', '0.000', '0.000', '0.069']
+% Term:wechsler::pcn::10 = 0.67 -- N patients in cluster 9 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.230', '0.005', '2.275']
+['cl1', '0.000', '0.639', '1.855']
+['cl2', '0.000', '0.000', '0.069']
+% Term:wechsler::pcn::12 = 0.73 -- N patients in cluster 8 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.558', '0.016', '0.823']
+['cl1', '0.000', '0.639', '5.215']
+['cl2', '0.000', '0.000', '0.866']
+% Term:ados-2modulo3::b4::2 = 1.00 -- N patients in cluster 8 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.015', '0.004', '0.086']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::d2::2 = 0.12 -- N patients in cluster 7 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.862', '0.000', '2.593']
+['cl1', '0.000', '0.043', '0.406']
+['cl2', '0.000', '0.000', '0.002']
+% Term:wechsler::ss::9 = 0.73 -- N patients in cluster 7 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.200', '0.016', '1.975']
+['cl1', '0.000', '1.522', '1.831']
+['cl2', '0.000', '0.000', '0.234']
+% Term:wechsler::co::5 = 1.00 -- N patients in cluster 7 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.041', '0.015', '0.161']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::b7::2 = 0.90 -- N patients in cluster 7 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.026', '0.007', '0.504']
+['cl1', '0.000', '0.000', '1.005']
+['cl2', '0.000', '0.000', '0.722']
+% Term:wechsler::bd::9 = 0.62 -- N patients in cluster 7 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.209', '0.016', '1.975']
+['cl1', '0.000', '0.288', '5.547']
+['cl2', '0.000', '0.000', '0.234']
+% Term:wechsler::cd::1 = 0.78 -- N patients in cluster 7 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.722', '0.024', '0.269']
+['cl1', '0.000', '0.532', '1.343']
+['cl2', '0.000', '0.000', '0.000']
+% Term:wechsler::bd::16 = 0.67 -- N patients in cluster 6 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.112', '0.046', '4.664']
+['cl1', '0.000', '0.000', '0.134']
+['cl2', '0.000', '0.000', '0.057']
+% Term:ados-2modulo3::d4::2 = 1.00 -- N patients in cluster 6 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.041', '0.015', '0.161']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:wechsler::pcn::6 = 0.86 -- N patients in cluster 5 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.438', '0.046', '0.371']
+['cl1', '0.000', '1.269', '2.171']
+['cl2', '0.000', '0.000', '0.000']
+% Term:wechsler::co::11 = 0.67 -- N patients in cluster 5 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.112', '0.046', '4.664']
+['cl1', '0.000', '0.000', '0.134']
+['cl2', '0.000', '0.000', '0.057']
+% Term:wechsler::in::10 = 0.23 -- N patients in cluster 3 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '4.632', '0.393', '0.047']
+['cl1', '0.000', '0.639', '0.036']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b2::1 = 0.07 -- N patients in cluster 2 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '2.961', '1.817']
+['cl1', '0.000', '0.000', '0.001']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo1::a2::1 = 0.02 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.064', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.161']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b9::1 = 0.04 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.795', '0.001', '2.798']
+['cl1', '0.000', '0.069', '0.706']
+['cl2', '0.000', '0.000', '0.017']
+% Term:ados-2modulo2::d4::1 = 0.05 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '1.438', '2.331']
+['cl1', '0.000', '0.000', '0.002']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b10::1 = 0.02 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.223', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.331']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::d4::1 = 0.03 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.119', '0.000', '2.798']
+['cl1', '0.000', '0.015', '0.230']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo2::b12::1 = 0.05 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.003']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo1::a5::0 = 0.03 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.795', '0.000', '2.798']
+['cl1', '0.000', '0.001', '0.706']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo2::a4::1 = 0.07 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '1.438', '2.331']
+['cl1', '0.000', '0.000', '0.024']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b4::1 = 0.02 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.113']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b3::1 = 0.01 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.113']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::a6::0 = 0.05 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.007']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo1::a8::0 = 0.04 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.514', '0.000', '2.798']
+['cl1', '0.000', '0.004', '1.053']
+['cl2', '0.000', '0.000', '0.005']
+% Term:ados-2modulo2::b6::1 = 0.06 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.010']
+['cl2', '0.000', '0.000', '2.959']
+% Term:vineland-ii::Madre e Padre insieme::scaled_per::11 = 0.06 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '0.305', '2.798']
+['cl1', '0.000', '1.801', '0.113']
+['cl2', '0.000', '0.000', '0.418']
+% Term:ados-2modulo2::a7::1 = 0.06 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '1.438', '2.331']
+['cl1', '0.000', '0.000', '0.006']
+['cl2', '0.000', '0.000', '0.000']
+% Term:wechsler::oa::11 = 0.10 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '5.520', '1.726', '0.004']
+['cl1', '0.000', '1.522', '0.010']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b5::0 = 0.02 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.223', '0.000', '2.798']
+['cl1', '0.000', '0.001', '0.331']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::a7::1 = 0.03 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.420', '0.000', '2.798']
+['cl1', '0.000', '0.003', '0.481']
+['cl2', '0.000', '0.000', '0.001']
+% Term:wechsler::oa::12 = 0.14 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.758', '1.438', '0.023']
+['cl1', '0.000', '0.000', '0.009']
+['cl2', '0.000', '0.000', '0.002']
+% Term:leiterinternationalperformancescale-revised::scaled_fc::10 = 0.09 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '5.585', '2.798']
+['cl1', '0.000', '0.018', '0.113']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::b5::1 = 0.08 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.005', '1.438', '2.331']
+['cl1', '0.000', '0.000', '0.033']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b8::1 = 0.03 -- N patients in cluster 1 out of 76
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '2.959']
+
+
+Cluster 1 numerosity: 54
+% Term:ados::d1::0 = 0.21 -- N patients in cluster 28 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.224', '0.001', '1.569']
+['cl1', '0.000', '0.909', '0.021']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::d2::0 = 0.18 -- N patients in cluster 25 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.007', '0.000', '1.278']
+['cl1', '0.000', '1.146', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b8::1 = 0.93 -- N patients in cluster 25 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::b3::0 = 1.00 -- N patients in cluster 22 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.001']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b2::1 = 0.89 -- N patients in cluster 22 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '2.961', '1.817']
+['cl1', '0.000', '0.000', '0.001']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::b12::1 = 0.91 -- N patients in cluster 20 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.003']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::d4::1 = 0.95 -- N patients in cluster 19 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '1.438', '2.331']
+['cl1', '0.000', '0.000', '0.002']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::a4::0 = 0.94 -- N patients in cluster 17 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '1.734', '0.000']
+['cl1', '0.000', '0.000', '0.006']
+['cl2', '0.000', '0.000', '2.466']
+% Term:ados-2modulo2::a7::1 = 0.94 -- N patients in cluster 17 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '1.438', '2.331']
+['cl1', '0.000', '0.000', '0.006']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::a6::0 = 0.89 -- N patients in cluster 16 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.007']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::b6::1 = 0.89 -- N patients in cluster 16 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.010']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::a6::1 = 1.00 -- N patients in cluster 14 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.005']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b5::0 = 1.00 -- N patients in cluster 13 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.014']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b11::1 = 1.00 -- N patients in cluster 12 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.010']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b6::0 = 1.00 -- N patients in cluster 12 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.014']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::a4::1 = 0.93 -- N patients in cluster 11 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '1.438', '2.331']
+['cl1', '0.000', '0.000', '0.024']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b12::0 = 1.00 -- N patients in cluster 10 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '0.000', '0.000']
+['cl1', '0.000', '0.001', '0.040']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b11::0 = 1.00 -- N patients in cluster 10 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '0.000', '0.000']
+['cl1', '0.000', '0.001', '0.040']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::a3::0 = 1.00 -- N patients in cluster 10 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.001', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.020']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::a7::0 = 0.91 -- N patients in cluster 10 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.003', '1.734', '0.000']
+['cl1', '0.000', '0.007', '0.066']
+['cl2', '0.000', '0.000', '2.466']
+% Term:ados-2modulo2::b5::1 = 0.92 -- N patients in cluster 10 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.005', '1.438', '2.331']
+['cl1', '0.000', '0.000', '0.033']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b11::2 = 0.75 -- N patients in cluster 9 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.112', '2.961', '1.817']
+['cl1', '0.000', '0.018', '0.113']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo1::b4::1 = 0.16 -- N patients in cluster 9 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.113']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b12::1 = 0.15 -- N patients in cluster 9 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.003', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.066']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b3::1 = 0.12 -- N patients in cluster 9 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.113']
+['cl2', '0.000', '0.000', '0.000']
+% Term:vineland-ii::Madre e Padre insieme::scaled_per::11 = 0.53 -- N patients in cluster 9 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '0.305', '2.798']
+['cl1', '0.000', '1.801', '0.113']
+['cl2', '0.000', '0.000', '0.418']
+% Term:ados-2modulo2::b2::0 = 1.00 -- N patients in cluster 8 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.007', '0.000', '0.000']
+['cl1', '0.000', '0.004', '0.080']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b3::1 = 0.77 -- N patients in cluster 8 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.062', '2.961', '1.817']
+['cl1', '0.000', '0.009', '0.080']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::b5::2 = 0.80 -- N patients in cluster 8 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.064', '5.585', '2.798']
+['cl1', '0.000', '0.035', '0.161']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulotoddler::d5::2 = 1.00 -- N patients in cluster 8 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.004', '0.000', '0.000']
+['cl1', '0.000', '0.002', '0.057']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::d1::1 = 0.14 -- N patients in cluster 8 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '3.369', '0.072', '3.889']
+['cl1', '0.000', '0.023', '5.816']
+['cl2', '0.000', '0.000', '0.118']
+% Term:leiterinternationalperformancescale-revised::scaled_fc::10 = 0.82 -- N patients in cluster 8 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '5.585', '2.798']
+['cl1', '0.000', '0.018', '0.113']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados::d2::2 = 0.21 -- N patients in cluster 7 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.862', '0.000', '2.593']
+['cl1', '0.000', '0.043', '0.406']
+['cl2', '0.000', '0.000', '0.002']
+% Term:ados-2modulo1::a2::1 = 0.15 -- N patients in cluster 7 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.064', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.161']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::b15::1 = 1.00 -- N patients in cluster 7 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.007', '0.000', '0.000']
+['cl1', '0.000', '0.004', '0.080']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::b12::2 = 1.00 -- N patients in cluster 7 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.004', '0.000', '0.000']
+['cl1', '0.000', '0.002', '0.057']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::b14::1 = 1.00 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.013', '0.000', '0.000']
+['cl1', '0.000', '0.008', '0.115']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::a7::2 = 0.86 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.186', '1.438', '2.331']
+['cl1', '0.000', '0.026', '0.276']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::b13::1 = 1.00 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.013', '0.000', '0.000']
+['cl1', '0.000', '0.008', '0.115']
+['cl2', '0.000', '0.000', '0.000']
+% Term:griffithsmentaldevelopmentscales::q_B::72 = 0.86 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.043', '1.734', '0.000']
+['cl1', '0.000', '0.120', '0.276']
+['cl2', '0.000', '0.000', '2.466']
+% Term:ados-2modulo1::d4::1 = 0.18 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.119', '0.000', '2.798']
+['cl1', '0.000', '0.015', '0.230']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulotoddler::b4::2 = 1.00 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.007', '0.000', '0.000']
+['cl1', '0.000', '0.004', '0.080']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::b5::1 = 1.00 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.013', '0.000', '0.000']
+['cl1', '0.000', '0.008', '0.115']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::d4::2 = 1.00 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.013', '0.000', '0.000']
+['cl1', '0.000', '0.008', '0.115']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b5::0 = 0.14 -- N patients in cluster 6 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.223', '0.000', '2.798']
+['cl1', '0.000', '0.001', '0.331']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::b5::2 = 1.00 -- N patients in cluster 5 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.026', '0.000', '0.000']
+['cl1', '0.000', '0.015', '0.166']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b10::1 = 0.11 -- N patients in cluster 5 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.223', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.331']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::a8::2 = 1.00 -- N patients in cluster 5 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.013', '0.000', '0.000']
+['cl1', '0.000', '0.008', '0.115']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b9::2 = 0.10 -- N patients in cluster 5 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.043', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.276']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::a2::2 = 1.00 -- N patients in cluster 5 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.026', '0.000', '0.000']
+['cl1', '0.000', '0.015', '0.166']
+['cl2', '0.000', '0.000', '0.000']
+% Term:vineland-ii::Madre e Padre insieme::scaled_fm::12 = 1.00 -- N patients in cluster 5 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.026', '0.000', '0.000']
+['cl1', '0.000', '0.015', '0.166']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::b6::0 = 1.00 -- N patients in cluster 5 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.049', '0.000', '0.000']
+['cl1', '0.000', '0.032', '0.241']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::a7::1 = 0.14 -- N patients in cluster 5 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.420', '0.000', '2.798']
+['cl1', '0.000', '0.003', '0.481']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo1::a8::1 = 0.14 -- N patients in cluster 4 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.082', '0.000', '0.000']
+['cl1', '0.000', '0.002', '0.401']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulotoddler::b6::1 = 1.00 -- N patients in cluster 4 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.026', '0.000', '0.000']
+['cl1', '0.000', '0.015', '0.166']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulotoddler::a2::1 = 1.00 -- N patients in cluster 4 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.049', '0.000', '0.000']
+['cl1', '0.000', '0.032', '0.241']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::a5::0 = 0.11 -- N patients in cluster 4 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.795', '0.000', '2.798']
+['cl1', '0.000', '0.001', '0.706']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulotoddler::b13::2 = 1.00 -- N patients in cluster 4 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.049', '0.000', '0.000']
+['cl1', '0.000', '0.032', '0.241']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::d4::2 = 0.09 -- N patients in cluster 4 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.159', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.588']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b5::1 = 0.10 -- N patients in cluster 4 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.159', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.588']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::b1::0 = 0.09 -- N patients in cluster 3 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '0.000', '5.228']
+['cl1', '0.000', '4.245', '0.003']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::a8::0 = 0.11 -- N patients in cluster 3 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.514', '0.000', '2.798']
+['cl1', '0.000', '0.004', '1.053']
+['cl2', '0.000', '0.000', '0.005']
+% Term:ados-2modulo1::a8::2 = 0.10 -- N patients in cluster 3 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.315', '0.000', '0.000']
+['cl1', '0.000', '0.001', '0.877']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo3::a8::1 = 0.05 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.500', '5.215']
+['cl2', '0.000', '0.000', '3.504']
+% Term:ados-2modulo1::a2::2 = 0.06 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.645', '0.000', '0.000']
+['cl1', '0.000', '0.000', '1.343']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo3::b7::1 = 0.03 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.745', '5.215']
+['cl2', '0.000', '0.000', '5.754']
+% Term:ados-2modulo3::a9::0 = 0.04 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.001']
+['cl1', '0.000', '0.639', '1.855']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo3::b2::1 = 0.03 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.639', '1.855']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo3::b4::0 = 0.04 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.500', '1.855']
+['cl2', '0.000', '0.000', '0.388']
+% Term:wechsler::in::10 = 0.15 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '4.632', '0.393', '0.047']
+['cl1', '0.000', '0.639', '0.036']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::b11::0 = 0.05 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '2.500', '3.715']
+['cl2', '0.000', '0.000', '1.182']
+% Term:ados-2modulo3::a4::0 = 0.03 -- N patients in cluster 2 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.745', '0.881']
+['cl2', '0.000', '0.000', '0.408']
+% Term:ados-2modulo3::b9::1 = 0.02 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.345', '0.759']
+['cl2', '0.000', '0.000', '1.070']
+% Term:ados-2modulo3::b9::0 = 0.05 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.001', '0.000', '0.023']
+['cl1', '0.000', '1.522', '4.352']
+['cl2', '0.000', '0.000', '0.866']
+% Term:wechsler::ss::11 = 0.08 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.412', '0.200', '0.259']
+['cl1', '0.000', '1.522', '0.023']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo1::a3::0 = 0.04 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.000', '0.000']
+['cl1', '0.000', '0.000', '2.171']
+['cl2', '0.000', '0.000', '0.002']
+% Term:ados-2modulo1::b4::2 = 0.04 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.000', '0.000']
+['cl1', '0.000', '0.000', '2.171']
+['cl2', '0.000', '0.000', '0.002']
+% Term:ados-2modulo3::b10::1 = 0.04 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.004']
+['cl1', '0.000', '1.522', '4.352']
+['cl2', '0.000', '0.000', '0.866']
+% Term:ados-2modulo3::a7::1 = 0.02 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '5.108', '4.352']
+['cl2', '0.000', '0.000', '3.504']
+% Term:ados-2modulo3::b10::0 = 0.02 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '1.522', '0.759']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo1::b12::2 = 0.05 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.000', '0.000']
+['cl1', '0.000', '0.002', '2.171']
+['cl2', '0.000', '0.000', '0.011']
+% Term:wechsler::oa::11 = 0.10 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '5.520', '1.726', '0.004']
+['cl1', '0.000', '1.522', '0.010']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b10::2 = 0.04 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.000', '0.000']
+['cl1', '0.000', '0.001', '2.171']
+['cl2', '0.000', '0.000', '0.005']
+% Term:ados-2modulo1::b11::1 = 0.06 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.001', '0.000']
+['cl1', '0.000', '0.013', '2.171']
+['cl2', '0.000', '0.000', '0.039']
+% Term:ados-2modulo3::d4::0 = 0.02 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.345', '0.315']
+['cl2', '0.000', '0.000', '0.408']
+% Term:ados-2modulo3::d4::1 = 0.04 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '1.269', '2.171']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::a7::0 = 0.05 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '0.000', '0.295']
+['cl1', '0.000', '1.522', '0.759']
+['cl2', '0.000', '0.000', '0.069']
+% Term:wechsler::bd::11 = 0.06 -- N patients in cluster 1 out of 54
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.526', '0.238', '0.233']
+['cl1', '0.000', '5.108', '0.004']
+['cl2', '0.000', '0.000', '0.000']
+
+
+Cluster 2 numerosity: 70
+% Term:ados-2modulo1::b3::1 = 0.87 -- N patients in cluster 53 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.113']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b9::2 = 0.90 -- N patients in cluster 48 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.043', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.276']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b12::1 = 0.85 -- N patients in cluster 44 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.003', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.066']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b10::1 = 0.88 -- N patients in cluster 41 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.223', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.331']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::a2::1 = 0.83 -- N patients in cluster 38 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.064', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.161']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b4::1 = 0.82 -- N patients in cluster 37 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '0.000', '2.798']
+['cl1', '0.000', '0.000', '0.113']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::d4::2 = 0.91 -- N patients in cluster 36 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.159', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.588']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::d1::0 = 0.20 -- N patients in cluster 33 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.224', '0.001', '1.569']
+['cl1', '0.000', '0.909', '0.021']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::b5::1 = 0.90 -- N patients in cluster 33 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.159', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.588']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::d2::2 = 0.64 -- N patients in cluster 31 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.862', '0.000', '2.593']
+['cl1', '0.000', '0.043', '0.406']
+['cl2', '0.000', '0.000', '0.002']
+% Term:ados-2modulo1::b5::0 = 0.84 -- N patients in cluster 31 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.223', '0.000', '2.798']
+['cl1', '0.000', '0.001', '0.331']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::a2::2 = 0.94 -- N patients in cluster 29 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.645', '0.000', '0.000']
+['cl1', '0.000', '0.000', '1.343']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo1::a8::1 = 0.86 -- N patients in cluster 28 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.082', '0.000', '0.000']
+['cl1', '0.000', '0.002', '0.401']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados::d2::0 = 0.16 -- N patients in cluster 28 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.007', '0.000', '1.278']
+['cl1', '0.000', '1.146', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo1::a8::2 = 0.90 -- N patients in cluster 27 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.315', '0.000', '0.000']
+['cl1', '0.000', '0.001', '0.877']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo1::a3::0 = 0.96 -- N patients in cluster 26 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.000', '0.000']
+['cl1', '0.000', '0.000', '2.171']
+['cl2', '0.000', '0.000', '0.002']
+% Term:ados-2modulo1::d4::1 = 0.79 -- N patients in cluster 26 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.119', '0.000', '2.798']
+['cl1', '0.000', '0.015', '0.230']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo1::a5::0 = 0.86 -- N patients in cluster 26 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.795', '0.000', '2.798']
+['cl1', '0.000', '0.001', '0.706']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados::d1::1 = 0.55 -- N patients in cluster 26 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '3.369', '0.072', '3.889']
+['cl1', '0.000', '0.023', '5.816']
+['cl2', '0.000', '0.000', '0.118']
+% Term:ados-2modulo1::b4::2 = 0.96 -- N patients in cluster 24 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.000', '0.000']
+['cl1', '0.000', '0.000', '2.171']
+['cl2', '0.000', '0.000', '0.002']
+% Term:ados-2modulo1::a7::1 = 0.83 -- N patients in cluster 23 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.420', '0.000', '2.798']
+['cl1', '0.000', '0.003', '0.481']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo1::b10::2 = 0.96 -- N patients in cluster 22 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.000', '0.000']
+['cl1', '0.000', '0.001', '2.171']
+['cl2', '0.000', '0.000', '0.005']
+% Term:ados-2modulo1::b12::2 = 0.95 -- N patients in cluster 20 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.000', '0.000']
+['cl1', '0.000', '0.002', '2.171']
+['cl2', '0.000', '0.000', '0.011']
+% Term:ados-2modulo1::a8::0 = 0.86 -- N patients in cluster 18 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.514', '0.000', '2.798']
+['cl1', '0.000', '0.004', '1.053']
+['cl2', '0.000', '0.000', '0.005']
+% Term:ados-2modulo1::b9::1 = 0.79 -- N patients in cluster 17 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.795', '0.001', '2.798']
+['cl1', '0.000', '0.069', '0.706']
+['cl2', '0.000', '0.000', '0.017']
+% Term:ados-2modulo1::b11::1 = 0.94 -- N patients in cluster 14 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.001', '0.000']
+['cl1', '0.000', '0.013', '2.171']
+['cl2', '0.000', '0.000', '0.039']
+% Term:ados-2modulo1::b3::2 = 1.00 -- N patients in cluster 13 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.002', '0.000']
+['cl1', '0.000', '0.005', '0.000']
+['cl2', '0.000', '0.000', '0.040']
+% Term:ados-2modulo1::b11::0 = 1.00 -- N patients in cluster 12 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.002', '0.000']
+['cl1', '0.000', '0.005', '0.000']
+['cl2', '0.000', '0.000', '0.040']
+% Term:ados-2modulo1::d4::0 = 1.00 -- N patients in cluster 11 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.002', '0.000']
+['cl1', '0.000', '0.005', '0.000']
+['cl2', '0.000', '0.000', '0.040']
+% Term:ados-2modulo1::b10::0 = 0.71 -- N patients in cluster 10 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.159', '0.015', '0.000']
+['cl1', '0.000', '1.307', '0.588']
+['cl2', '0.000', '0.000', '0.150']
+% Term:ados-2modulo1::b4::0 = 0.92 -- N patients in cluster 10 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.009', '0.000']
+['cl1', '0.000', '0.070', '2.171']
+['cl2', '0.000', '0.000', '0.114']
+% Term:ados-2modulo1::b5::2 = 0.91 -- N patients in cluster 10 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.015', '0.000']
+['cl1', '0.000', '0.107', '2.171']
+['cl2', '0.000', '0.000', '0.150']
+% Term:ados-2modulo1::a7::0 = 0.80 -- N patients in cluster 9 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.315', '0.006', '0.000']
+['cl1', '0.000', '0.334', '0.877']
+['cl2', '0.000', '0.000', '0.087']
+% Term:vineland-ii::Madre e Padre insieme::scaled_wri::10 = 0.75 -- N patients in cluster 9 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.315', '0.024', '0.000']
+['cl1', '0.000', '0.986', '0.877']
+['cl2', '0.000', '0.000', '0.198']
+% Term:ados-2modulo1::b11::2 = 1.00 -- N patients in cluster 8 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.023', '0.000']
+['cl1', '0.000', '0.039', '0.000']
+['cl2', '0.000', '0.000', '0.157']
+% Term:vineland-ii::Madre e Padre insieme::scaled_rec::8 = 0.89 -- N patients in cluster 8 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.039', '0.000']
+['cl1', '0.000', '0.251', '2.171']
+['cl2', '0.000', '0.000', '0.262']
+% Term:ados-2modulo1::a5::2 = 0.80 -- N patients in cluster 8 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.645', '0.039', '0.000']
+['cl1', '0.000', '0.673', '1.343']
+['cl2', '0.000', '0.000', '0.262']
+% Term:vineland-ii::Madre e Padre insieme::scaled_exp::7 = 0.89 -- N patients in cluster 7 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.039', '0.000']
+['cl1', '0.000', '0.251', '2.171']
+['cl2', '0.000', '0.000', '0.262']
+% Term:vineland-ii::Madre e Padre insieme::scaled_cs::8 = 0.89 -- N patients in cluster 7 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.415', '0.039', '0.000']
+['cl1', '0.000', '0.251', '2.171']
+['cl2', '0.000', '0.000', '0.262']
+% Term:vineland-ii::Madre e Padre insieme::scaled_dom::9 = 0.82 -- N patients in cluster 7 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.645', '0.024', '0.000']
+['cl1', '0.000', '0.454', '1.343']
+['cl2', '0.000', '0.000', '0.198']
+% Term:vineland-ii::Madre e Padre insieme::scaled_exp::4 = 1.00 -- N patients in cluster 7 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.009', '0.000']
+['cl1', '0.000', '0.017', '0.000']
+['cl2', '0.000', '0.000', '0.090']
+% Term:vineland-ii::Madre e Padre insieme::scaled_per::8 = 1.00 -- N patients in cluster 6 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.038', '0.000']
+['cl1', '0.000', '0.061', '0.000']
+['cl2', '0.000', '0.000', '0.209']
+% Term:vineland-ii::Madre e Padre insieme::scaled_wri::5 = 1.00 -- N patients in cluster 6 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.023', '0.000']
+['cl1', '0.000', '0.039', '0.000']
+['cl2', '0.000', '0.000', '0.157']
+% Term:vineland-ii::Madre e Padre insieme::scaled_play::5 = 1.00 -- N patients in cluster 5 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.038', '0.000']
+['cl1', '0.000', '0.061', '0.000']
+['cl2', '0.000', '0.000', '0.209']
+% Term:ados::b1::0 = 0.09 -- N patients in cluster 4 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '0.000', '5.228']
+['cl1', '0.000', '4.245', '0.003']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo3::b9::1 = 0.03 -- N patients in cluster 2 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.345', '0.759']
+['cl2', '0.000', '0.000', '1.070']
+% Term:ados-2modulo3::b10::2 = 0.10 -- N patients in cluster 2 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.001', '0.010']
+['cl1', '0.000', '1.076', '0.000']
+['cl2', '0.000', '0.000', '1.662']
+% Term:ados-2modulo3::a9::2 = 0.10 -- N patients in cluster 2 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.007']
+['cl1', '0.000', '1.076', '0.000']
+['cl2', '0.000', '0.000', '1.662']
+% Term:ados-2modulo3::b7::1 = 0.03 -- N patients in cluster 2 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.745', '5.215']
+['cl2', '0.000', '0.000', '5.754']
+% Term:ados-2modulo3::d4::0 = 0.03 -- N patients in cluster 2 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.345', '0.315']
+['cl2', '0.000', '0.000', '0.408']
+% Term:ados-2modulo3::a4::0 = 0.03 -- N patients in cluster 2 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.745', '0.881']
+['cl2', '0.000', '0.000', '0.408']
+% Term:ados-2modulo3::b2::2 = 0.14 -- N patients in cluster 2 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.006', '0.018', '0.058']
+['cl1', '0.000', '1.076', '0.000']
+['cl2', '0.000', '0.000', '1.662']
+% Term:wechsler::in::12 = 0.11 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '2.896', '5.585', '0.073']
+['cl1', '0.000', '2.500', '0.406']
+['cl2', '0.000', '0.000', '0.041']
+% Term:ados-2modulo3::a8::1 = 0.03 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.500', '5.215']
+['cl2', '0.000', '0.000', '3.504']
+% Term:wechsler::ss::8 = 0.08 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '5.090', '0.830', '1.125']
+['cl1', '0.000', '1.215', '0.912']
+['cl2', '0.000', '0.000', '0.041']
+% Term:ados-2modulo2::b11::2 = 0.08 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.112', '2.961', '1.817']
+['cl1', '0.000', '0.018', '0.113']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo3::a8::0 = 0.03 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.009']
+['cl1', '0.000', '2.285', '0.160']
+['cl2', '0.000', '0.000', '0.388']
+% Term:ados-2modulo2::a4::0 = 0.06 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '1.734', '0.000']
+['cl1', '0.000', '0.000', '0.006']
+['cl2', '0.000', '0.000', '2.466']
+% Term:ados-2modulo2::b12::1 = 0.05 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.003']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo3::b4::1 = 0.03 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.001']
+['cl1', '0.000', '2.285', '1.205']
+['cl2', '0.000', '0.000', '3.504']
+% Term:ados-2modulo3::b11::1 = 0.02 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.285', '0.423']
+['cl2', '0.000', '0.000', '1.182']
+% Term:ados-2modulo3::a7::1 = 0.02 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '5.108', '4.352']
+['cl2', '0.000', '0.000', '3.504']
+% Term:wechsler::oa::5 = 0.14 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '2.109', '5.585', '0.073']
+['cl1', '0.000', '2.285', '0.025']
+['cl2', '0.000', '0.000', '0.041']
+% Term:ados-2modulo2::b3::1 = 0.08 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.062', '2.961', '1.817']
+['cl1', '0.000', '0.009', '0.080']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::a6::0 = 0.05 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.007']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::a7::0 = 0.09 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.003', '1.734', '0.000']
+['cl1', '0.000', '0.007', '0.066']
+['cl2', '0.000', '0.000', '2.466']
+% Term:wechsler::mr::11 = 0.12 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '5.520', '5.585', '0.073']
+['cl1', '0.000', '5.108', '0.131']
+['cl2', '0.000', '0.000', '0.041']
+% Term:ados-2modulo3::a7::2 = 0.05 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.005']
+['cl1', '0.000', '1.904', '0.000']
+['cl2', '0.000', '0.000', '2.466']
+% Term:ados-2modulo2::b6::1 = 0.06 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.010']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo2::b5::2 = 0.10 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.064', '5.585', '2.798']
+['cl1', '0.000', '0.035', '0.161']
+['cl2', '0.000', '0.000', '2.959']
+% Term:wechsler::vc::8 = 0.08 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '3.113', '0.830', '0.552']
+['cl1', '0.000', '2.500', '0.184']
+['cl2', '0.000', '0.000', '0.014']
+% Term:leiterinternationalperformancescale-revised::scaled_fc::10 = 0.09 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.034', '5.585', '2.798']
+['cl1', '0.000', '0.018', '0.113']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo3::b4::0 = 0.02 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.500', '1.855']
+['cl2', '0.000', '0.000', '0.388']
+% Term:wechsler::bd::13 = 0.08 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.135', '0.238', '2.710']
+['cl1', '0.000', '2.285', '0.025']
+['cl2', '0.000', '0.000', '0.041']
+% Term:wechsler::bd::11 = 0.06 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.526', '0.238', '0.233']
+['cl1', '0.000', '5.108', '0.004']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo2::b8::1 = 0.03 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '5.585', '2.798']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '2.959']
+% Term:ados-2modulo3::b11::0 = 0.03 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '2.500', '3.715']
+['cl2', '0.000', '0.000', '1.182']
+% Term:wechsler::ss::7 = 0.05 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.238', '0.006', '1.390']
+['cl1', '0.000', '1.215', '3.255']
+['cl2', '0.000', '0.000', '0.388']
+% Term:ados-2modulo2::b2::1 = 0.04 -- N patients in cluster 1 out of 70
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '2.961', '1.817']
+['cl1', '0.000', '0.000', '0.001']
+['cl2', '0.000', '0.000', '2.959']
+
+
+Cluster 3 numerosity: 47
+% Term:ados-2modulo4::a4::0 = 1.00 -- N patients in cluster 45 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::d1::0 = 0.23 -- N patients in cluster 44 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.224', '0.001', '1.569']
+['cl1', '0.000', '0.909', '0.021']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::d2::0 = 0.26 -- N patients in cluster 43 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.007', '0.000', '1.278']
+['cl1', '0.000', '1.146', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::d5::0 = 1.00 -- N patients in cluster 40 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::d4::0 = 1.00 -- N patients in cluster 40 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b8::0 = 1.00 -- N patients in cluster 36 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b2::1 = 1.00 -- N patients in cluster 34 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::a9::0 = 1.00 -- N patients in cluster 27 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b12::0 = 1.00 -- N patients in cluster 27 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b11::1 = 1.00 -- N patients in cluster 27 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b9::1 = 1.00 -- N patients in cluster 26 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::a8::0 = 1.00 -- N patients in cluster 25 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::c1::1 = 1.00 -- N patients in cluster 23 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::a10::1 = 1.00 -- N patients in cluster 22 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b11::0 = 1.00 -- N patients in cluster 20 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::a9::1 = 1.00 -- N patients in cluster 17 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b6::2 = 1.00 -- N patients in cluster 16 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::a8::1 = 1.00 -- N patients in cluster 16 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b6::0 = 1.00 -- N patients in cluster 16 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::a10::0 = 1.00 -- N patients in cluster 16 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b9::0 = 1.00 -- N patients in cluster 15 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::c1::0 = 1.00 -- N patients in cluster 15 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b12::1 = 1.00 -- N patients in cluster 15 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b6::1 = 1.00 -- N patients in cluster 15 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados::b1::0 = 0.30 -- N patients in cluster 13 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.002', '0.000', '5.228']
+['cl1', '0.000', '4.245', '0.003']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::c1::2 = 1.00 -- N patients in cluster 9 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::a10::2 = 1.00 -- N patients in cluster 9 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.000']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b8::1 = 1.00 -- N patients in cluster 8 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.000', '0.001']
+['cl2', '0.000', '0.000', '0.000']
+% Term:wechsler::ss::11 = 0.58 -- N patients in cluster 7 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.412', '0.200', '0.259']
+['cl1', '0.000', '1.522', '0.023']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo4::d5::1 = 1.00 -- N patients in cluster 7 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.001']
+['cl1', '0.000', '0.000', '0.002']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b2::0 = 1.00 -- N patients in cluster 7 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.001']
+['cl1', '0.000', '0.000', '0.002']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::a8::2 = 1.00 -- N patients in cluster 6 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '0.000', '0.005']
+['cl2', '0.000', '0.000', '0.001']
+% Term:wechsler::oa::11 = 0.80 -- N patients in cluster 6 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '5.520', '1.726', '0.004']
+['cl1', '0.000', '1.522', '0.010']
+['cl2', '0.000', '0.000', '0.000']
+% Term:ados-2modulo4::b2::2 = 1.00 -- N patients in cluster 6 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '0.000', '0.005']
+['cl2', '0.000', '0.000', '0.001']
+% Term:ados-2modulo4::b9::2 = 1.00 -- N patients in cluster 6 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '0.000', '0.005']
+['cl2', '0.000', '0.000', '0.001']
+% Term:wechsler::in::10 = 0.62 -- N patients in cluster 6 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '4.632', '0.393', '0.047']
+['cl1', '0.000', '0.639', '0.036']
+['cl2', '0.000', '0.000', '0.000']
+% Term:wechsler::bd::11 = 0.53 -- N patients in cluster 6 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.526', '0.238', '0.233']
+['cl1', '0.000', '5.108', '0.004']
+['cl2', '0.000', '0.000', '0.000']
+% Term:wechsler::in::12 = 0.56 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '2.896', '5.585', '0.073']
+['cl1', '0.000', '2.500', '0.406']
+['cl2', '0.000', '0.000', '0.041']
+% Term:wechsler::ss::8 = 0.38 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '5.090', '0.830', '1.125']
+['cl1', '0.000', '1.215', '0.912']
+['cl2', '0.000', '0.000', '0.041']
+% Term:wechsler::co::12 = 0.75 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.938', '0.663', '0.082']
+['cl1', '0.000', '0.000', '0.009']
+['cl2', '0.000', '0.000', '0.002']
+% Term:wechsler::mr::7 = 0.45 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '3.113', '0.200', '1.125']
+['cl1', '0.000', '0.639', '0.406']
+['cl2', '0.000', '0.000', '0.007']
+% Term:wechsler::oa::5 = 0.71 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '2.109', '5.585', '0.073']
+['cl1', '0.000', '2.285', '0.025']
+['cl2', '0.000', '0.000', '0.041']
+% Term:ados-2modulo4::b12::2 = 1.00 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.006']
+['cl1', '0.000', '0.000', '0.013']
+['cl2', '0.000', '0.000', '0.003']
+% Term:wechsler::mr::11 = 0.62 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '5.520', '5.585', '0.073']
+['cl1', '0.000', '5.108', '0.131']
+['cl2', '0.000', '0.000', '0.041']
+% Term:wechsler::cd::8 = 0.55 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.412', '0.200', '0.552']
+['cl1', '0.000', '1.522', '0.055']
+['cl2', '0.000', '0.000', '0.002']
+% Term:wechsler::in::11 = 0.46 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.110', '0.796', '0.099']
+['cl1', '0.000', '0.064', '1.535']
+['cl2', '0.000', '0.000', '0.002']
+% Term:wechsler::vc::10 = 0.67 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.533', '0.327', '0.217']
+['cl1', '0.000', '0.000', '0.009']
+['cl2', '0.000', '0.000', '0.002']
+% Term:wechsler::vc::8 = 0.46 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '3.113', '0.830', '0.552']
+['cl1', '0.000', '2.500', '0.184']
+['cl2', '0.000', '0.000', '0.014']
+% Term:ados-2modulo4::d4::1 = 1.00 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.006']
+['cl1', '0.000', '0.000', '0.013']
+['cl2', '0.000', '0.000', '0.003']
+% Term:wechsler::bd::13 = 0.42 -- N patients in cluster 5 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.135', '0.238', '2.710']
+['cl1', '0.000', '2.285', '0.025']
+['cl2', '0.000', '0.000', '0.041']
+% Term:wechsler::vc::12 = 0.36 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '2.054', '0.104', '3.224']
+['cl1', '0.000', '0.639', '0.881']
+['cl2', '0.000', '0.000', '0.021']
+% Term:wechsler::co::10 = 0.60 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.312', '0.167', '0.460']
+['cl1', '0.000', '0.000', '0.009']
+['cl2', '0.000', '0.000', '0.002']
+% Term:wechsler::si::9 = 0.45 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '3.113', '0.200', '1.125']
+['cl1', '0.000', '0.639', '0.406']
+['cl2', '0.000', '0.000', '0.007']
+% Term:wechsler::bd::10 = 0.40 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '5.172', '0.393', '1.267']
+['cl1', '0.000', '0.288', '1.769']
+['cl2', '0.000', '0.000', '0.021']
+% Term:ados-2modulo3::d4::0 = 0.06 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.345', '0.315']
+['cl2', '0.000', '0.000', '0.408']
+% Term:wechsler::oa::12 = 0.86 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.758', '1.438', '0.023']
+['cl1', '0.000', '0.000', '0.009']
+['cl2', '0.000', '0.000', '0.002']
+% Term:wechsler::oa::7 = 1.00 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '0.000', '0.005']
+['cl2', '0.000', '0.000', '0.001']
+% Term:wechsler::vc::13 = 0.33 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.339', '0.055', '4.337']
+['cl1', '0.000', '0.639', '0.881']
+['cl2', '0.000', '0.000', '0.021']
+% Term:ados-2modulo3::a4::0 = 0.05 -- N patients in cluster 4 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.745', '0.881']
+['cl2', '0.000', '0.000', '0.408']
+% Term:ados-2modulo3::b9::1 = 0.05 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.345', '0.759']
+['cl2', '0.000', '0.000', '1.070']
+% Term:wechsler::co::13 = 0.57 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.533', '0.327', '1.056']
+['cl1', '0.000', '0.000', '0.052']
+['cl2', '0.000', '0.000', '0.017']
+% Term:wechsler::si::15 = 0.50 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.312', '0.167', '1.809']
+['cl1', '0.000', '0.000', '0.052']
+['cl2', '0.000', '0.000', '0.017']
+% Term:wechsler::in::16 = 1.00 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.052']
+['cl1', '0.000', '0.000', '0.080']
+['cl2', '0.000', '0.000', '0.034']
+% Term:wechsler::pc::10 = 1.00 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.018']
+['cl1', '0.000', '0.000', '0.031']
+['cl2', '0.000', '0.000', '0.010']
+% Term:ados-2modulo3::a8::0 = 0.09 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.009']
+['cl1', '0.000', '2.285', '0.160']
+['cl2', '0.000', '0.000', '0.388']
+% Term:wechsler::pc::7 = 0.57 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '2.896', '1.726', '0.198']
+['cl1', '0.000', '0.639', '0.881']
+['cl2', '0.000', '0.000', '0.021']
+% Term:wechsler::si::12 = 0.50 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.312', '0.167', '1.809']
+['cl1', '0.000', '0.000', '0.052']
+['cl2', '0.000', '0.000', '0.017']
+% Term:ados-2modulo3::a9::0 = 0.07 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.001']
+['cl1', '0.000', '0.639', '1.855']
+['cl2', '0.000', '0.000', '0.069']
+% Term:wechsler::vc::16 = 1.00 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.052']
+['cl1', '0.000', '0.000', '0.080']
+['cl2', '0.000', '0.000', '0.034']
+% Term:ados-2modulo4::a9::2 = 1.00 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.052']
+['cl1', '0.000', '0.000', '0.080']
+['cl2', '0.000', '0.000', '0.034']
+% Term:ados-2modulo3::b2::1 = 0.05 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '0.639', '1.855']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo3::b10::0 = 0.07 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '1.522', '0.759']
+['cl2', '0.000', '0.000', '0.069']
+% Term:ados-2modulo4::b8::2 = 1.00 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.052']
+['cl1', '0.000', '0.000', '0.080']
+['cl2', '0.000', '0.000', '0.034']
+% Term:wechsler::si::14 = 0.40 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.859', '0.104', '3.224']
+['cl1', '0.000', '1.522', '0.315']
+['cl2', '0.000', '0.000', '0.021']
+% Term:wechsler::pc::9 = 0.44 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.186', '0.087', '2.686']
+['cl1', '0.000', '0.000', '0.052']
+['cl2', '0.000', '0.000', '0.017']
+% Term:ados-2modulo3::b4::0 = 0.06 -- N patients in cluster 3 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.500', '1.855']
+['cl2', '0.000', '0.000', '0.388']
+% Term:ados::d2::2 = 0.03 -- N patients in cluster 2 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.862', '0.000', '2.593']
+['cl1', '0.000', '0.043', '0.406']
+['cl2', '0.000', '0.000', '0.002']
+% Term:wechsler::co::6 = 0.44 -- N patients in cluster 2 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.412', '0.200', '2.170']
+['cl1', '0.000', '1.522', '0.315']
+['cl2', '0.000', '0.000', '0.021']
+% Term:ados-2modulo3::b11::1 = 0.05 -- N patients in cluster 2 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.285', '0.423']
+['cl2', '0.000', '0.000', '1.182']
+% Term:wechsler::oa::13 = 0.80 -- N patients in cluster 2 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '1.758', '1.438', '0.165']
+['cl1', '0.000', '0.000', '0.052']
+['cl2', '0.000', '0.000', '0.017']
+% Term:ados-2modulo3::b11::0 = 0.05 -- N patients in cluster 2 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.002']
+['cl1', '0.000', '2.500', '3.715']
+['cl2', '0.000', '0.000', '1.182']
+% Term:ados-2modulo3::a8::1 = 0.03 -- N patients in cluster 1 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '2.500', '5.215']
+['cl2', '0.000', '0.000', '3.504']
+% Term:ados-2modulo3::b9::0 = 0.05 -- N patients in cluster 1 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.001', '0.000', '0.023']
+['cl1', '0.000', '1.522', '4.352']
+['cl2', '0.000', '0.000', '0.866']
+% Term:ados-2modulo3::a9::1 = 0.04 -- N patients in cluster 1 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.003']
+['cl1', '0.000', '0.000', '1.005']
+['cl2', '0.000', '0.000', '0.722']
+% Term:ados-2modulo3::b4::1 = 0.03 -- N patients in cluster 1 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.001']
+['cl1', '0.000', '2.285', '1.205']
+['cl2', '0.000', '0.000', '3.504']
+% Term:ados-2modulo3::b7::1 = 0.02 -- N patients in cluster 1 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '4.745', '5.215']
+['cl2', '0.000', '0.000', '5.754']
+% Term:ados-2modulo3::b10::1 = 0.04 -- N patients in cluster 1 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.004']
+['cl1', '0.000', '1.522', '4.352']
+['cl2', '0.000', '0.000', '0.866']
+% Term:ados-2modulo3::a7::1 = 0.02 -- N patients in cluster 1 out of 47
+['ztest', 'cl1', 'cl2', 'cl3']
+['cl0', '0.000', '0.000', '0.000']
+['cl1', '0.000', '5.108', '4.352']
+['cl2', '0.000', '0.000', '3.504']
+
+

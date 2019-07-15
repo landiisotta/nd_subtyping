@@ -1,0 +1,157 @@
+
+	Pairwise comparisons using t tests with pooled SD 
+
+data:  cl_df$AGE and cl_df$CLUSTER 
+
+  0     1     2     3     4     5     6    
+1 1.000 -     -     -     -     -     -    
+2 1.000 1.000 -     -     -     -     -    
+3 1.000 1.000 1.000 -     -     -     -    
+4 1.000 1.000 1.000 1.000 -     -     -    
+5 1.000 1.000 1.000 1.000 1.000 -     -    
+6 1.000 0.047 1.000 1.000 1.000 1.000 -    
+7 1.000 1.000 1.000 1.000 1.000 1.000 0.122
+
+P value adjustment method: bonferroni 
+
+	Pairwise comparisons using t tests with pooled SD 
+
+data:  cl_df$N_ENCOUNTERS and cl_df$CLUSTER 
+
+  0 1 2 3 4 5 6
+1 1 - - - - - -
+2 1 1 - - - - -
+3 1 1 1 - - - -
+4 1 1 1 1 - - -
+5 1 1 1 1 1 - -
+6 1 1 1 1 1 1 -
+7 1 1 1 1 1 1 1
+
+P value adjustment method: bonferroni 
+         gij
+xij        0  1
+  Femmina  5  2
+  Maschio 35 22
+         gij
+xij        0  2
+  Femmina  5  4
+  Maschio 35 25
+         gij
+xij        0  3
+  Femmina  5  1
+  Maschio 35  7
+         gij
+xij        0  4
+  Femmina  5  1
+  Maschio 35  5
+         gij
+xij        0  5
+  Femmina  5  0
+  Maschio 35  7
+         gij
+xij        0  6
+  Femmina  5 17
+  Maschio 35 60
+         gij
+xij        0  7
+  Femmina  5  2
+  Maschio 35  9
+         gij
+xij        1  2
+  Femmina  2  4
+  Maschio 22 25
+         gij
+xij        1  3
+  Femmina  2  1
+  Maschio 22  7
+         gij
+xij        1  4
+  Femmina  2  1
+  Maschio 22  5
+         gij
+xij        1  5
+  Femmina  2  0
+  Maschio 22  7
+         gij
+xij        1  6
+  Femmina  2 17
+  Maschio 22 60
+         gij
+xij        1  7
+  Femmina  2  2
+  Maschio 22  9
+         gij
+xij        2  3
+  Femmina  4  1
+  Maschio 25  7
+         gij
+xij        2  4
+  Femmina  4  1
+  Maschio 25  5
+         gij
+xij        2  5
+  Femmina  4  0
+  Maschio 25  7
+         gij
+xij        2  6
+  Femmina  4 17
+  Maschio 25 60
+         gij
+xij        2  7
+  Femmina  4  2
+  Maschio 25  9
+         gij
+xij       3 4
+  Femmina 1 1
+  Maschio 7 5
+         gij
+xij       3 5
+  Femmina 1 0
+  Maschio 7 7
+         gij
+xij        3  6
+  Femmina  1 17
+  Maschio  7 60
+         gij
+xij       3 7
+  Femmina 1 2
+  Maschio 7 9
+         gij
+xij       4 5
+  Femmina 1 0
+  Maschio 5 7
+         gij
+xij        4  6
+  Femmina  1 17
+  Maschio  5 60
+         gij
+xij       4 7
+  Femmina 1 2
+  Maschio 5 9
+         gij
+xij        5  6
+  Femmina  0 17
+  Maschio  7 60
+         gij
+xij       5 7
+  Femmina 0 2
+  Maschio 7 9
+         gij
+xij        6  7
+  Femmina 17  2
+  Maschio 60  9
+
+	Pairwise comparisons using chi-squared test 
+
+data:  cl_df$SEX and cl_df$CLUSTER 
+
+  0 1 2 3 4 5 6
+1 1 - - - - - -
+2 1 1 - - - - -
+3 1 1 1 - - - -
+4 1 1 1 1 - - -
+5 1 1 1 1 1 - -
+6 1 1 1 1 1 1 -
+7 1 1 1 1 1 1 1
+
+P value adjustment method: bonferroni 

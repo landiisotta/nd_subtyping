@@ -16,4 +16,10 @@ Run `create-tables.py` that outputs the following files:
   from the corresponding Google sheet;
 
 - _odf-tables.pkl_: `pickle` object storing the dictionary "table_name":{list representing 
-  the Google sheet}. 
+  the Google sheet}.
+
+Run `tokenize-dataset.sh` with the level of depth of tests (1 = subtests, 2=subscales, 3=indexes).
+
+The bash file calls `create-vocabulary.py` that builds the vocabularies according to the specified level.
+
+The vocabularies are seved in a folder _level-N_ with $N$ the level. 
